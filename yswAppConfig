@@ -1,4 +1,4 @@
-channel::https://master.dl.sourceforge.net/project/yswconfig/yswAppChannel?viasf=1
-search::https://master.dl.sourceforge.net/project/yswconfig/yswAppSearch?viasf=1
-juji::https://master.dl.sourceforge.net/project/yswconfig/yswAppJuji?viasf=1
-tv::https://master.dl.sourceforge.net/project/yswconfig/yswAppTv?viasf=1
+channel::https://cdn.jsdelivr.net/gh/WebConfigUrl/yswConfig/yswAppChannel
+search::https://cdn.jsdelivr.net/gh/WebConfigUrl/yswConfig/yswAppSearch
+juji::https://cdn.jsdelivr.net/gh/WebConfigUrl/yswConfig/yswAppJuji
+tv::https://cdn.jsdelivr.net/gh/WebConfigUrl/yswConfig/yswAppTv
