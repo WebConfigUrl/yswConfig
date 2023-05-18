@@ -1,0 +1,417 @@
+{
+
+	"AppSearchInfos": [
+		{
+			"SiteName": "热门电视剧  豆瓣 ",
+			"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&page_limit=50",
+			"SiteEncoding": "utf-8",
+			"SearchType": "get",
+            "CreatedBy":"luren",
+			"UrlParams": "page_start={page-50}",
+			"HeadParams": null,
+			"IsEnabled": 1,
+			"PlayType": "video",
+			"RegContent": "(?<=\"subjects\")[\\s|\\S]*?(?=\\}\\]\\})",
+			"RegSplit": "\"is_new\"",
+			"IsIncludeHtml": 1,
+			"RegUrlInclude": "(?<=\"url\":\")[\\s|\\S]*?(?=\")",
+			"RegUrlNotInclude": "",
+			"RegImgUrl": "(?<=\"cover\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle": "(?<=\"title\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle2":"(?<=\"episodes_info\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoActor": "",
+			"RegVideoInfo": "",
+			"RegVideoScore": "(?<=\"rate\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoYear": null,
+			"RegVideoCountry": null,
+			"SubAppSearchInfo":"国产剧,https://movie.douban.com/j/search_subjects?type=tv&tag=%E5%9B%BD%E4%BA%A7%E5%89%A7&page_limit=50_|_美剧,https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%BE%8E%E5%89%A7&page_limit=50_|_韩剧,https://movie.douban.com/j/search_subjects?type=tv&tag=%E9%9F%A9%E5%89%A7&page_limit=50_|_日剧,https://movie.douban.com/j/search_subjects?type=tv&tag=%E6%97%A5%E5%89%A7&page_limit=50_|_港剧,https://movie.douban.com/j/search_subjects?type=tv&tag=%E6%B8%AF%E5%89%A7&page_limit=50_|_英剧,https://movie.douban.com/j/search_subjects?type=tv&tag=%E8%8B%B1%E5%89%A7&page_limit=50",
+			"ListSearchInfos": [{
+					"SiteName": "国产剧",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=tv&tag=%E5%9B%BD%E4%BA%A7%E5%89%A7&page_limit=50"
+				},
+				{
+					"SiteName": "美剧",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%BE%8E%E5%89%A7&page_limit=50"
+				},
+				{
+					"SiteName": "韩剧",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=tv&tag=%E9%9F%A9%E5%89%A7&page_limit=50"
+				},
+				{
+					"SiteName": "日剧",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=tv&tag=%E6%97%A5%E5%89%A7&page_limit=50"
+				},
+				{
+					"SiteName": "港剧",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=tv&tag=%E6%B8%AF%E5%89%A7&page_limit=50"
+				},
+				{
+					"SiteName": "英剧",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=tv&tag=%E8%8B%B1%E5%89%A7&page_limit=50"
+				}
+			]
+
+		},
+		{
+			"SiteName": "动漫  豆瓣",
+			"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=tv&tag=%E5%8A%A8%E6%BC%AB&page_limit=50",
+			"SiteEncoding": "utf-8",
+			"SearchType": "get",
+			"UrlParams": "page_start={page-50}",
+			"HeadParams": null,
+			"IsEnabled": 1,
+			"PlayType": "video",
+			"RegContent": "(?<=\"subjects\")[\\s|\\S]*?(?=\\}\\]\\})",
+			"RegSplit": "\"is_new\"",
+			"IsIncludeHtml": 1,
+			"RegUrlInclude": "(?<=\"url\":\")[\\s|\\S]*?(?=\")",
+			"RegUrlNotInclude": "",
+			"RegImgUrl": "(?<=\"cover\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle": "(?<=\"title\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle2": "(?<=\"episodes_info\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoActor": "",
+			"RegVideoInfo": "",
+			"RegVideoScore": "(?<=\"rate\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoYear": null,
+			"RegVideoCountry": null
+		},
+		{
+			"SiteName": "最新电影  豆瓣",
+			"SiteSearchUrl": "https://movie.douban.com/cinema/nowplaying/",
+			"SiteEncoding": "utf-8",
+			"SearchType": "get",
+			"UrlParams": "",
+			"HeadParams": null,
+			"IsEnabled": 1,
+			"PlayType": "video",
+			"RegContent": "(?<=正在上映)[\\s|\\S]*?(?=即将上映)",
+			"RegSplit": "</ul>",
+			"IsIncludeHtml": 1,
+			"RegUrlInclude": "(?<=href\\=\")[\\s|\\S]*?(?=\")",
+			"RegUrlNotInclude": "",
+			"RegImgUrl": "(?<=src\\=\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle": "(?<=alt\\=\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle2": "(?<=\"episodes_info\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoActor": "",
+			"RegVideoInfo": "",
+			"RegVideoScore": "(?<=<span class\\=\"subject-rate\">)[\\s|\\S]*?(?=</span>)",
+			"RegVideoYear": null,
+			"RegVideoCountry": null
+		},
+		{
+			"SiteName": "热门电影  豆瓣",
+			"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&page_limit=50",
+			"SiteEncoding": "utf-8",
+			"SearchType": "get",
+			"UrlParams": "page_start={page-50}",
+			"HeadParams": null,
+			"IsEnabled": 1,
+			"PlayType": "video",
+			"RegContent": "(?<=\"subjects\")[\\s|\\S]*?(?=\\}\\]\\})",
+			"RegSplit": "\"is_new\"",
+			"IsIncludeHtml": 1,
+			"RegUrlInclude": "(?<=\"url\":\")[\\s|\\S]*?(?=\")",
+			"RegUrlNotInclude": "",
+			"RegImgUrl": "(?<=\"cover\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle": "(?<=\"title\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle2": "(?<=\"episodes_info\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoActor": "",
+			"RegVideoInfo": "",
+			"RegVideoScore": "(?<=\"rate\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoYear": null,
+			"RegVideoCountry": null,
+			"SubAppSearchInfo":"最新,https://movie.douban.com/j/search_subjects?type=movie&tag=%E6%9C%80%E6%96%B0&page_limit=50_|_经典,https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%BB%8F%E5%85%B8&page_limit=50_|_欧美,https://movie.douban.com/j/search_subjects?type=movie&tag=%E6%AC%A7%E7%BE%8E&page_limit=50_|_高分,https://movie.douban.com/j/search_subjects?type=movie&tag=%E8%B1%86%E7%93%A3%E9%AB%98%E5%88%86&page_limit=50_|_华语,https://movie.douban.com/j/search_subjects?type=movie&tag=%E5%8D%8E%E8%AF%AD&page_limit=50_|_日本,https://movie.douban.com/j/search_subjects?type=movie&tag=%E6%97%A5%E6%9C%AC&page_limit=50_|_韩国,https://movie.douban.com/j/search_subjects?type=movie&tag=%E9%9F%A9%E5%9B%BD&page_limit=50_|_冷门佳片,https://movie.douban.com/j/search_subjects?type=movie&tag=%E5%86%B7%E9%97%A8%E4%BD%B3%E7%89%87&page_limit=50_|_恐怖,https://movie.douban.com/j/search_subjects?type=movie&tag=%E6%81%90%E6%80%96&page_limit=50_|_动作,https://movie.douban.com/j/search_subjects?type=movie&tag=%E5%8A%A8%E4%BD%9C&page_limit=50_|_喜剧,https://movie.douban.com/j/search_subjects?type=movie&tag=%E5%96%9C%E5%89%A7&page_limit=50_|_爱情,https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%88%B1%E6%83%85&page_limit=50_|_悬疑,https://movie.douban.com/j/search_subjects?type=movie&tag=%E6%82%AC%E7%96%91&page_limit=50_|_科幻,https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%A7%91%E5%B9%BB&page_limit=50_|_成长,https://movie.douban.com/j/search_subjects?type=movie&tag=%E6%88%90%E9%95%BF&page_limit=50",
+			"ListSearchInfos": [{
+					"SiteName": "最新",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E6%9C%80%E6%96%B0&page_limit=50"
+				},
+				{
+					"SiteName": "经典",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%BB%8F%E5%85%B8&page_limit=50"
+				},
+				{
+					"SiteName": "欧美",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E6%AC%A7%E7%BE%8E&page_limit=50"
+				},
+				{
+					"SiteName": "高分",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E8%B1%86%E7%93%A3%E9%AB%98%E5%88%86&page_limit=50"
+				},
+				{
+					"SiteName": "华语",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E5%8D%8E%E8%AF%AD&page_limit=50"
+				},
+				{
+					"SiteName": "日本",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E6%97%A5%E6%9C%AC&page_limit=50"
+				},
+				{
+					"SiteName": "韩国",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E9%9F%A9%E5%9B%BD&page_limit=50"
+				},
+				{
+					"SiteName": "冷门佳片",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E5%86%B7%E9%97%A8%E4%BD%B3%E7%89%87&page_limit=50"
+				},
+				{
+					"SiteName": "恐怖",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E6%81%90%E6%80%96&page_limit=50"
+				},
+				{
+					"SiteName": "动作",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E5%8A%A8%E4%BD%9C&page_limit=50"
+				},
+				{
+					"SiteName": "喜剧",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E5%96%9C%E5%89%A7&page_limit=50"
+				},
+				{
+					"SiteName": "爱情",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%88%B1%E6%83%85&page_limit=50"
+				},
+				{
+					"SiteName": "悬疑",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E6%82%AC%E7%96%91&page_limit=50"
+				},
+				{
+					"SiteName": "科幻",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%A7%91%E5%B9%BB&page_limit=50"
+				},
+				{
+					"SiteName": "成长",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E6%88%90%E9%95%BF&page_limit=50"
+				}
+
+			]
+
+		},
+		{
+			"SiteName": "综艺  豆瓣",
+			"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%BB%BC%E8%89%BA&page_limit=50",
+			"SiteEncoding": "utf-8",
+			"SearchType": "get",
+			"UrlParams": "page_start={page-50}",
+			"HeadParams": null,
+			"IsEnabled": 1,
+			"PlayType": "video",
+			"RegContent": "(?<=\"subjects\")[\\s|\\S]*?(?=\\}\\]\\})",
+			"RegSplit": "\"is_new\"",
+			"IsIncludeHtml": 1,
+			"RegUrlInclude": "(?<=\"url\":\")[\\s|\\S]*?(?=\")",
+			"RegUrlNotInclude": "",
+			"RegImgUrl": "(?<=\"cover\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle": "(?<=\"title\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle2": "(?<=\"episodes_info\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoActor": "",
+			"RegVideoInfo": "",
+			"RegVideoScore": "(?<=\"rate\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoYear": null,
+			"RegVideoCountry": null
+		},
+		{
+			"SiteName": "电视剧（百度）",
+			"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28287&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=17&sort_type=1&stat0=&stat1=&stat2=&stat3=&rn=12&cb=jQuery11020014825",
+			"SiteEncoding": "utf-8",
+			"SearchType": "get",
+			"UrlParams": "pn={page-12}",
+			"HeadParams": null,
+			"IsEnabled": -1,
+			"PlayType": "video",
+			"RegContent": "(?<=\"data\")[\\s|\\S]*?(?=\"status\")",
+			"RegSplit": "\"\\}",
+			"IsIncludeHtml": 0,
+            "ContentEncoded":"unicode",
+			"RegUrlInclude": "(?<=\"kg_pic_url\":\")[\\s|\\S]*?(?=\")",
+			"RegUrlNotInclude": "",
+			"RegImgUrl": "(?<=\"kg_pic_url\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle": "(?<=\"ename\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle2": "(?<=\"additional\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoActor": "",
+			"RegVideoInfo": "",
+			"RegVideoScore": "",
+			"RegVideoYear": null,
+			"RegVideoCountry": null,
+            "SubAppSearchInfo":"国产剧,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28287&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=17&sort_type=1&stat0=&stat1=%E5%A4%A7%E9%99%86&stat2=&stat3=&rn=12&cb=jQuery1102001482597268_|_美剧,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28287&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=17&sort_type=1&stat0=&stat1=%E7%BE%8E%E5%9B%BD&stat2=&stat3=&rn=12&cb=jQuery110200148259726863_|_韩剧,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28287&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=17&sort_type=1&stat0=&stat1=%E9%9F%A9%E5%9B%BD&stat2=&stat3=&rn=12&cb=jQuery1102001482597268_|_日剧,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28287&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=17&sort_type=1&stat0=&stat1=%E6%97%A5%E6%9C%AC&stat2=&stat3=&rn=12&cb=jQuery1102001482597268_|_港剧,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28287&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=17&sort_type=1&stat0=&stat1=%E9%A6%99%E6%B8%AF&stat2=&stat3=&rn=9&cb=jQuery1102001482597268_|_英剧,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28287&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=17&sort_type=1&stat0=&stat1=%E8%8B%B1%E5%9B%BD&stat2=&stat3=&rn=9&cb=jQuery1102001482597268",
+			"ListSearchInfos": [{
+					"SiteName": "国产剧",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28287&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=17&sort_type=1&stat0=&stat1=%E5%A4%A7%E9%99%86&stat2=&stat3=&rn=12&cb=jQuery1102001482597268"
+				},
+				{
+					"SiteName": "美剧",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28287&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=17&sort_type=1&stat0=&stat1=%E7%BE%8E%E5%9B%BD&stat2=&stat3=&rn=12&cb=jQuery110200148259726863"
+				},
+				{
+					"SiteName": "韩剧",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28287&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=17&sort_type=1&stat0=&stat1=%E9%9F%A9%E5%9B%BD&stat2=&stat3=&rn=12&cb=jQuery1102001482597268"
+				},
+				{
+					"SiteName": "日剧",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28287&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=17&sort_type=1&stat0=&stat1=%E6%97%A5%E6%9C%AC&stat2=&stat3=&rn=12&cb=jQuery1102001482597268"
+				},
+				{
+					"SiteName": "港剧",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28287&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=17&sort_type=1&stat0=&stat1=%E9%A6%99%E6%B8%AF&stat2=&stat3=&rn=9&cb=jQuery1102001482597268"
+				},
+				{
+					"SiteName": "英剧",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28287&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E8%A7%86%E5%89%A7%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=17&sort_type=1&stat0=&stat1=%E8%8B%B1%E5%9B%BD&stat2=&stat3=&rn=9&cb=jQuery1102001482597268"
+				}
+			]
+
+		},
+		{
+			"SiteName": "电影（百度）",
+			"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=&stat2=&stat3=&rn=12&cb=jQuery110209579690",
+			"SiteEncoding": "utf-8",
+			"SearchType": "get",
+			"UrlParams": "pn={page-12}",
+			"HeadParams": null,
+			"IsEnabled": -1,
+			"PlayType": "video",
+			"RegContent": "(?<=\"data\")[\\s|\\S]*?(?=\"status\")",
+			"RegSplit": "\"\\}",
+			"IsIncludeHtml": 0,
+            "ContentEncoded":"unicode",
+			"RegUrlInclude": "(?<=\"kg_pic_url\":\")[\\s|\\S]*?(?=\")",
+			"RegUrlNotInclude": "",
+			"RegImgUrl": "(?<=\"kg_pic_url\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle": "(?<=\"ename\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle2": "(?<=\"additional\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoActor": "",
+			"RegVideoInfo": "",
+			"RegVideoScore": "",
+			"RegVideoYear": null,
+			"RegVideoCountry": null,
+			"SubAppSearchInfo":"大陆,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E5%A4%A7%E9%99%86&stat2=&stat3=&rn=12&cb=jQuery110206387_|_美国,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E7%BE%8E%E5%9B%BD&stat2=&stat3=&rn=12&cb=jQuery110206387_|_韩国,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E9%9F%A9%E5%9B%BD&stat2=&stat3=&rn=12&cb=jQuery110206387_|_日本,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E6%97%A5%E6%9C%AC&stat2=&stat3=&rn=12&cb=jQuery110206387_|_爱情,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E7%88%B1%E6%83%85&stat1=&stat2=&stat3=&rn=12&cb=jQuery110206387397646311339_165045_|_喜剧,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E5%96%9C%E5%89%A7&stat1=&stat2=&stat3=&rn=12&cb=jQuery110206387397646311339_165045_|_动作,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E5%8A%A8%E4%BD%9C&stat1=&stat2=&stat3=&rn=12&cb=jQuery110206387397646311339_165045_|_科幻,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E7%A7%91%E5%B9%BB&stat1=&stat2=&stat3=&rn=12&cb=jQuery110206387397646311339_165045_|_恐怖,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E6%81%90%E6%80%96&stat1=&stat2=&stat3=&rn=12&cb=jQuery110206387397646311339_165045_|_动画, https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E5%8A%A8%E7%94%BB&stat1=&stat2=&stat3=&rn=12&cb=jQuery110206387397646311339_165045_|_犯罪,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E7%8A%AF%E7%BD%AA&stat1=&stat2=&stat3=&rn=12&cb=jQuery110206387397646311339_165045_|_剧情,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E5%89%A7%E6%83%85&stat1=&stat2=&stat3=&rn=12&cb=jQuery110206387397646311339_165045",
+			"ListSearchInfos": [{
+					"SiteName": "大陆",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E5%A4%A7%E9%99%86&stat2=&stat3=&rn=12&cb=jQuery110206387"
+				},
+				{
+					"SiteName": "美国",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E7%BE%8E%E5%9B%BD&stat2=&stat3=&rn=12&cb=jQuery110206387"
+				},
+                {
+					"SiteName": "韩国",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E9%9F%A9%E5%9B%BD&stat2=&stat3=&rn=12&cb=jQuery110206387"
+				},
+                {
+					"SiteName": "日本",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E6%97%A5%E6%9C%AC&stat2=&stat3=&rn=12&cb=jQuery110206387"
+				},
+                {
+					"SiteName": "爱情",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E7%88%B1%E6%83%85&stat1=&stat2=&stat3=&rn=12&cb=jQuery110206387397646311339_165045"
+				},
+                {
+					"SiteName": "喜剧",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E5%96%9C%E5%89%A7&stat1=&stat2=&stat3=&rn=12&cb=jQuery110206387397646311339_165045"
+				},
+                {
+					"SiteName": "动作",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E5%8A%A8%E4%BD%9C&stat1=&stat2=&stat3=&rn=12&cb=jQuery110206387397646311339_165045"
+				},
+                {
+					"SiteName": "科幻",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E7%A7%91%E5%B9%BB&stat1=&stat2=&stat3=&rn=12&cb=jQuery110206387397646311339_165045"
+				},
+                {
+					"SiteName": "恐怖",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E6%81%90%E6%80%96&stat1=&stat2=&stat3=&rn=12&cb=jQuery110206387397646311339_165045"
+				},
+                {
+					"SiteName": "动画",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E5%8A%A8%E7%94%BB&stat1=&stat2=&stat3=&rn=12&cb=jQuery110206387397646311339_165045"
+				},
+                {
+					"SiteName": "犯罪",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E7%8A%AF%E7%BD%AA&stat1=&stat2=&stat3=&rn=12&cb=jQuery110206387397646311339_165045"
+				},
+                {
+					"SiteName": "剧情",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28286&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E5%89%A7%E6%83%85&stat1=&stat2=&stat3=&rn=12&cb=jQuery110206387397646311339_165045"
+				}
+			]
+
+		},
+		{
+			"SiteName": "动漫（百度）",
+			"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28213&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E5%8A%A8%E6%BC%AB%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=&stat2=&stat3=&rn=12&cb=jQuery1102063873",
+			"SiteEncoding": "utf-8",
+			"SearchType": "get",
+			"UrlParams": "pn={page-12}",
+			"HeadParams": null,
+			"IsEnabled":-1,
+			"PlayType": "video",
+			"RegContent": "(?<=\"data\")[\\s|\\S]*?(?=\"status\")",
+			"RegSplit": "\"\\}",
+			"IsIncludeHtml": 0,
+            "ContentEncoded":"unicode",
+			"RegUrlInclude": "(?<=\"kg_pic_url\":\")[\\s|\\S]*?(?=\")",
+			"RegUrlNotInclude": "",
+			"RegImgUrl": "(?<=\"kg_pic_url\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle": "(?<=\"ename\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle2":"(?<=\"additional\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoActor": "",
+			"RegVideoInfo": "",
+			"RegVideoScore": "",
+			"RegVideoYear": null,
+			"RegVideoCountry": null,
+			"SubAppSearchInfo":"国产剧,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28213&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E5%8A%A8%E6%BC%AB%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E4%B8%AD%E5%9B%BD&stat2=&stat3=&rn=12&cb=jQuery11020638739764631_|_日本,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28213&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E5%8A%A8%E6%BC%AB%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E6%97%A5%E6%9C%AC&stat2=&stat3=&rn=12&cb=jQuery11020638739764631_|_儿童,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28213&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E5%8A%A8%E6%BC%AB%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E5%84%BF%E7%AB%A5&stat1=&stat2=&stat3=&rn=12&cb=jQuery11020638",
+			"ListSearchInfos": [{
+					"SiteName": "国产剧",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28213&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E5%8A%A8%E6%BC%AB%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E4%B8%AD%E5%9B%BD&stat2=&stat3=&rn=12&cb=jQuery11020638739764631"
+				},
+				{
+					"SiteName": "日本",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28213&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E5%8A%A8%E6%BC%AB%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E6%97%A5%E6%9C%AC&stat2=&stat3=&rn=12&cb=jQuery11020638739764631"
+				},
+				{
+					"SiteName": "儿童",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28213&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E5%8A%A8%E6%BC%AB%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=%E5%84%BF%E7%AB%A5&stat1=&stat2=&stat3=&rn=12&cb=jQuery11020638"
+				}
+			]
+
+		},
+		{
+			"SiteName": "综艺（百度）",
+			"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28212&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%BB%BC%E8%89%BA%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=&stat2=&stat3=&rn=12&cb=jQue",
+			"SiteEncoding": "utf-8",
+			"SearchType": "get",
+			"UrlParams": "pn={page-12}",
+			"HeadParams": null,
+			"IsEnabled": -1,
+			"PlayType": "video",
+			"RegContent": "(?<=\"data\")[\\s|\\S]*?(?=\"status\")",
+			"RegSplit": "\"\\}",
+			"IsIncludeHtml": 0,
+            "ContentEncoded":"unicode",
+			"RegUrlInclude": "(?<=\"kg_pic_url\":\")[\\s|\\S]*?(?=\")",
+			"RegUrlNotInclude": "",
+			"RegImgUrl": "(?<=\"kg_pic_url\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle": "(?<=\"ename\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle2": "(?<=\"additional\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoActor": "",
+			"RegVideoInfo": "",
+			"RegVideoScore": "",
+			"RegVideoYear": null,
+			"RegVideoCountry": null,
+			"SubAppSearchInfo":"中国,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28212&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%BB%BC%E8%89%BA%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E4%B8%AD%E5%9B%BD&stat2=&stat3=&rn=12&cb=jQuery1102063873976463_|_日韩,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28212&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%BB%BC%E8%89%BA%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E6%97%A5%E9%9F%A9&stat2=&stat3=&rn=12&cb=jQuery1102063873976463_|_欧美,https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28212&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%BB%BC%E8%89%BA%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E6%AC%A7%E7%BE%8E&stat2=&stat3=&rn=12&cb=jQuery1102063873976463",
+			"ListSearchInfos": [{
+					"SiteName": "中国",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28212&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%BB%BC%E8%89%BA%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E4%B8%AD%E5%9B%BD&stat2=&stat3=&rn=12&cb=jQuery1102063873976463"
+				},
+				{
+					"SiteName": "日韩",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28212&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%BB%BC%E8%89%BA%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E6%97%A5%E9%9F%A9&stat2=&stat3=&rn=12&cb=jQuery1102063873976463"
+				},
+				{
+					"SiteName": "欧美",
+					"SiteSearchUrl": "https://sp1.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=28212&from_mid=1&&format=json&ie=utf-8&oe=utf-8&query=%E7%BB%BC%E8%89%BA%E6%8E%92%E8%A1%8C%E6%A6%9C&sort_key=16&sort_type=1&stat0=&stat1=%E6%AC%A7%E7%BE%8E&stat2=&stat3=&rn=12&cb=jQuery1102063873976463"
+				}
+			]
+
+		}     
+      
+	]
+}
