@@ -1856,6 +1856,30 @@
       "RegVideoScore": "",
       "RegVideoYear": null,
       "RegVideoCountry": null
+    },
+    {
+      "SiteName": "鸭奈飞",
+      "SiteSearchUrl": "https://yanaifei.tv/vod/search/-------------.html?wd={search}",
+      "SiteEncoding": "utf-8",
+      "SearchType": "get",
+      "UrlParams": "",
+      "HeadParams": null,
+      "IsEnabled": 1,
+      "PlayType":"video",
+      "RegContent": "(?<=<div class=\"module-card-item module-item\">)[\\s|\\S]*?(?=<div class=\"fixedGroup\">)",
+      "RegListNotInclude":"",
+      "RegSplit": "详情</span></a>",
+      "IsIncludeHtml": 0,
+      "RegUrlInclude": "(?<=href=\")/vod/detail/[\\s|\\S]*?(?=\")",
+      "RegUrlNotInclude": "",
+      "RegImgUrl": "",
+      "RegVideoTitle": "(?<=<strong>)[\\s|\\S]+(?=</strong>)",
+      "RegVideoTitle2": "",
+      "RegVideoActor": "",
+      "RegVideoInfo": "",
+      "RegVideoScore": "",
+      "RegVideoYear": null,
+      "RegVideoCountry": null
     }
     
   ]
