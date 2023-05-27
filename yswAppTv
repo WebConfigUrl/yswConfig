@@ -2,7 +2,7 @@
 #EXTINF:-1 group-title="央视" tvg-name="CCTV-1 ",CCTV-1综合 (1080p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225618/index.m3u8
 #EXTINF:-1 group-title="卫视" tvg-name="北京卫视",北京卫视
-http://39.134.115.163:8080/PLTV/88888910/224/3221225673/index.
+http://39.134.115.163:8080/PLTV/88888910/224/3221225673/index.m3u8
 #EXTINF:-1 group-title="斗魚" playtype="webview"  tvg-name="【片片】片荒的时候看片片",【片片】片荒的时候看片片
 https://m.douyu.com/4258555
 #EXTINF:-1 group-title="斗魚" playtype="webview"  tvg-name="MV音乐频道",MV音乐频道 
@@ -395,7 +395,6 @@ https://vdse.bdstatic.com//b6295e9776c2cd347716fc2447e27fac.mp4?aa=bb.m3u8
 https://liveplay.xiaoeknow.com/live/5060_pyBeyjJ4RjcfhK7T.m3u8
 #EXTINF:-1 group-title="其他" tvg-name="51号兵站",51号兵站
 http://hls.cntv.myalicdn.com/asp/hls/850/0303000a/3/default/fa6557276d644b5ea399956a6bf94e59/850.m3u8
-http://njgdmm-wshls.homecdn.com/live/4e8a2.m3u8?zguangxd
 #EXTINF:-1 group-title="其他" tvg-name="碧玉簪",碧玉簪
 http://hls.cntv.myalicdn.com/asp/hls/850/0303000a/3/default/9e90b1a2872b476b8a4f9882f9b63cde/850.m3u8
 #EXTINF:-1 group-title="其他" tvg-name="大闹天宫",大闹天宫
