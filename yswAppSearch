@@ -104,7 +104,7 @@
     },
      {
       "SiteName": "AGE动漫",
-      "SiteSearchUrl": "https://www.agemys.net/search?query={search}&page={page}",
+      "SiteSearchUrl": "https://www.agemys.vip/search?query={search}&page={page}",
       "SiteEncoding": "utf-8",
       "SearchType": "get",
       "GroupName":"",
@@ -330,7 +330,7 @@
       "SearchType": "get",
       "UrlParams": "",
       "HeadParams": null,
-      "IsEnabled": 1,
+      "IsEnabled": 0,
       "PlayType":"video",
       "RegContent": "(?<=<ul class=\"myui-vodlist__media clearfix\" id=\"searchList\">)[\\s|\\S]*?(?=</ul>)",
       "RegListNotInclude":"",
