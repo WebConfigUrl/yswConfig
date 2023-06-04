@@ -521,7 +521,7 @@
 			"IsOnlyPart": 0,
 			"IsAlwaysLoadUrl": 0,
 			"OrderBy": 2,
-			"RegContent": "(?<=<ul class=\"stui-content__playlist clearfix\">)[\\s|\\S]*?(?=</ul>)",
+			"RegContent": "(?<=<ul class=\"anthology-list-play size\">)[\\s|\\S]*?(?=</ul>)",
 			"RegContentInclude": null,
 			"RegSplit": "</li>",
 			"IsIncludeHtml": 1,
@@ -538,13 +538,13 @@
 			"PlayType": "webview",
 			"RegTitle": "(?<=<h3 class=\"title\">)[\\s|\\S]*?(?=</h3>)",
 			"RegScore": "",
-			"RegDirector": "(?<=导演：</span>)[\\s|\\S]*?(?=</p>)",
-			"RegActor":"(?<=主演：</span>)[\\s|\\S]*?(?=</p>)",
-			"RegArea":  "(?<=地区：</span>)[\\s|\\S]*?(?=</a>)",
-			"RegYear": "(?<=年份：</span>)[\\s|\\S]*?(?=</a>)",
+			"RegDirector": "(?<=导演：</em>)[\\s|\\S]*?(?=</li>)",
+			"RegActor":"(?<=主演：</em>)[\\s|\\S]*?(?=</li>)",
+			"RegArea":  "(?<=地区：</em>)[\\s|\\S]*?(?=</li>)",
+			"RegYear": "(?<=年份：</em>)[\\s|\\S]*?(?=</li>)",
 			"RegInfo": "(?<=<div class=\"stui-content__desc col-pd clearfix\">)[\\s|\\S]*?(?=</div>)",
-			"RegCollectContentList": "(?<= 播放地址 )[\\s|\\S]*?(?=end 播放地址)",
-			"RegCollectContent": "<h3 class=\"title\">[\\s|\\S]*?(?=</h3>)"
+			"RegCollectContentList": "(?<=<div class=\"anthology-tab nav-swiper b-b br\">)[\\s|\\S]*?(?=</div>)",
+			"RegCollectContent": "</i>[\\s|\\S]*?(?=<span)"
 		},
 		{
 			"SiteName": "麻花视频",
