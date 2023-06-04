@@ -1,5 +1,5 @@
 #EXTM3U
-#EXT-X-MEDIA-SEQUENCE:1685847769
+#EXT-X-MEDIA-SEQUENCE:1685847770
 #EXTINF:-1 group-title="央视移" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" tvg-name="CCTV-1",CCTV-1
 http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225804/1.m3u8
 #EXTINF:-1 group-title="央视移" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" tvg-name="CCTV-1",CCTV-1
@@ -168,7 +168,7 @@ http://221.0.78.198:1681/hls/10214/index.m3u8
 http://221.0.78.198:1681/hls/10215/index.m3u8
 #EXTINF:-1 group-title="央视联" tvg-logo="https://epg.112114.xyz/logo/CCTV17.png" tvg-name="CCTV-17",CCTV-17
 http://221.0.78.198:1681/hls/10289/index.m3u8
-#EXTINF:-1 group-title="央视联" tvg-logo="https://epg.112114.xyz/logo/CGTN.png" tvg-name="CGTN",CGTN
+#EXTINF:-1 group-title="央视联" tvg-logo="https://epg.112114.xyz/logo/CGTN.png" tvg-name=""纪录片",CGTN
 http://221.0.78.198:1681/hls/10216/index.m3u8
 #EXTINF:-1 group-title="央视联" tvg-logo="https://epg.112114.xyz/logo/CGTNARABIC.png" tvg-name="CGTN Arabic",CGTN Arabic
 http://livear.cgtn.com/1000a/prog_index.m3u8
@@ -742,6 +742,246 @@ http://epg.112114.xyz/douyu/9826611
 http://epg.112114.xyz/douyu/36337
 #EXTINF:-1 group-title="斗鱼" tvg-logo="https://epg.112114.xyz/logo/贝爷MAX厅.png" tvg-name="贝爷MAX厅",贝爷MAX厅
 http://epg.112114.xyz/douyu/4332
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【片片】片荒的时候看片片",【片片】片荒的时候看片片
+https://m.douyu.com/4258555
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="MV音乐频道",MV音乐频道 
+https://m.douyu.com/3870925
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【贝贝】今日3倍亲密度",【贝贝】今日3倍亲密度
+https://m.douyu.com/431460
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【牛叔】N分钟带你看大片",N分钟带你看大片
+https://m.douyu.com/2758565
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【女神金】60帧蓝光原画刀刀陪看",女神金】60帧蓝光原画刀刀陪看
+https://m.douyu.com/747764
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="鼎香楼的故事",鼎香楼的故事
+https://m.douyu.com/299854
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="小时候的经典",小时候的经典
+https://m.douyu.com/3321215
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="开心情景剧",开心情景剧
+https://m.douyu.com/6648727
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【周星驰】星爷华语成龙",【周星驰】星爷华语
+https://m.douyu.com/122402
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【蓝翔】经典电视剧",经典电视剧
+https://m.douyu.com/7459925
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="最地道的赶海",最地道的赶海
+https://m.douyu.com/1109218
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="豆瓣高评分电影",豆瓣高评分电影
+https://m.douyu.com/52787
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="「橙記」「最人气港剧直播间」",最人气港剧直播间
+https://m.douyu.com/4549169
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="粤语电影周星驰林正英",粤语电影周
+https://m.douyu.com/6566671
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【更新】最全斗牌、麻将剧集解说",最全斗牌麻将剧集解
+https://m.douyu.com/9559158
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【德善】所谓胡同就是，用时间来造就朋友",所谓胡同就是
+https://m.douyu.com/8600645
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="修之之修兮",修之之修兮
+https://m.douyu.com/9644599
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="爱你孤身走暗巷！爱你不跪的模样",爱你孤身走暗巷爱你不跪的模样
+https://m.douyu.com/7528160
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【正版】经典小品，下饭必备",经典小品下饭必备
+https://m.douyu.com/9067836
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【万合天宜】王大锤情怀上线",王大锤情怀上线
+https://m.douyu.com/9220456
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【科幻Fans】精彩科幻影视，解说连连看",精彩科幻影视
+https://m.douyu.com/3508304
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【霍格沃茨】伟大引起嫉妒，嫉妒导致怨毒",伟大引起嫉妒
+https://m.douyu.com/8814650
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【神乐】华语经典电影沈腾周星驰",华语经典电影沈腾周星驰
+https://m.douyu.com/85894
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【今夜必看】",今夜必看
+https://m.douyu.com/1428266
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="奶虫恐怖丧尸鬼片灾难科幻",奶虫恐怖丧尸鬼片灾难科幻
+https://m.douyu.com/263824
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【冤案】夫斯乃上蔡布衣，闾巷之黔首",【冤案】
+https://m.douyu.com/6706214
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="怡寶 今天2倍亲密度哟",斗鱼
+https://m.douyu.com/434971
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【樱木花道灌篮】PP动漫精彩解说",斗鱼
+https://m.douyu.com/9837291
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="开心锤锤，开心快乐每一天！",斗鱼
+https://m.douyu.com/9018297
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="经典小品相声乐不停",斗鱼
+https://m.douyu.com/9273031
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【贝爷影厅】经典科幻动作灾难巨兽",斗鱼
+https://m.douyu.com/252802
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="口音贼重的解说直播间",斗鱼
+https://m.douyu.com/9734098
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="喜剧的电影，秋雅~~~",斗鱼
+https://m.douyu.com/428402
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【蓝翔】弹幕天团、下饭神剧[请勿刷屏]",斗鱼
+https://m.douyu.com/276200
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【贝爷MAX厅】科幻动作经典喜剧",斗鱼
+https://m.douyu.com/4332
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【虫哥】魔性吐槽童年回忆",斗鱼
+https://m.douyu.com/8915074
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【小宇60帧】科幻动作灾难电影陪看直播",斗鱼
+https://m.douyu.com/323876
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【林正英】僵尸 女鬼 弹幕 护体",斗鱼
+https://m.douyu.com/218859
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="可乐电影 欧美 科幻 经典",斗鱼
+https://m.douyu.com/20415
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【体育】聊聊科比、乔丹传奇故事",斗鱼
+https://m.douyu.com/8434598
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="小U丧尸 鬼片 恐怖 惊悚 电影",斗鱼
+https://m.douyu.com/96577
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【PDD歌友会总决赛圆满成功】【有骨气】",斗鱼
+https://m.douyu.com/1274132
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="哈哈一笑 烦恼全消",斗鱼
+https://m.douyu.com/1377142
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="迷小雅最新爽剧解说",斗鱼
+https://m.douyu.com/9639225
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="老字号，值得信赖！骗子勿扰",斗鱼
+https://m.douyu.com/9998
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="好帅好帅好帅",斗鱼
+https://m.douyu.com/710673
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="冰冰恐怖经典喜剧和你一起",斗鱼
+https://m.douyu.com/74374
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="曾小贤胡一菲第三季",斗鱼
+https://m.douyu.com/2838296
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="不进来看看嘛",斗鱼
+https://m.douyu.com/6566658
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【小鸽陪看】华语热门影视剧",斗鱼
+https://m.douyu.com/3928
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【斗鱼最强女团】Kpop女团点播直播间",斗鱼
+https://m.douyu.com/329667
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="佛系主播 连连看",斗鱼
+https://m.douyu.com/10120371
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="要做最高的赵高!！！",斗鱼
+https://m.douyu.com/11279861
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="曾小贤胡一菲",斗鱼
+https://m.douyu.com/11404041
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="杀死燕双鹰，活捉狄仁杰！",斗鱼
+https://m.douyu.com/3439096
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="小饼一个神秘的电影直播间",斗鱼
+https://m.douyu.com/1735337
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="电影最TOP",斗鱼
+https://m.douyu.com/2164691
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="晓妞动漫花园o(∩_∩)o",斗鱼
+https://m.douyu.com/426517
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="经典 华语 电影  科幻",斗鱼
+https://m.douyu.com/11544610
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【Liz陪看】科幻 动漫 灾难 喜剧",斗鱼
+https://m.douyu.com/7254536
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="五一看T-ARA！祝大家五一快乐！",斗鱼
+https://m.douyu.com/17732
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="鸭鸭武侠剧 电影 唱歌直播",斗鱼
+https://m.douyu.com/7925840
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="金庸经典武侠！",斗鱼
+https://m.douyu.com/7754031
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="已更新！星君带你看大片",斗鱼
+https://m.douyu.com/8014467
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="宇宙的尽头是什么？",斗鱼
+https://m.douyu.com/9456028
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【刘老师】每天爆笑解说不断",斗鱼
+https://m.douyu.com/8317926
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【史君说剧】史君说尽天下好剧",斗鱼
+https://m.douyu.com/9419771
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="很高兴认识你  7305938
+https://m.douyu.com/7305938
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【雍正康熙】帝王故事连连看",斗鱼
+https://m.douyu.com/4808115
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【贝爷影厅】欧美 日韩 国产 2号厅",斗鱼
+https://m.douyu.com/36337
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【悬疑】都市猎奇传说、恐怖故事",斗鱼
+https://m.douyu.com/2337939
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="小小天才的搞笑段子",斗鱼
+https://m.douyu.com/9419678
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="精彩电影一网打尽。",斗鱼
+https://m.douyu.com/9650887
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【科幻片】最专业的科幻片解说",斗鱼
+https://m.douyu.com/9338839
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【恐怖片】专注恐怖片赏析与原创解说！！！",斗鱼
+https://m.douyu.com/9280384
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="扑朔迷离的案件里隐藏着什么？",斗鱼
+https://m.douyu.com/610972
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="机智帅气的一炫君的直播间",斗鱼
+https://m.douyu.com/3705472
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【茶啊二中】好看的动画",斗鱼
+https://m.douyu.com/2925610
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【正在解说光头琦玉】饭点陪聊",斗鱼
+https://m.douyu.com/9527700
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【速看】爆笑解说，欢乐百分百！",斗鱼
+https://m.douyu.com/2660125
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="中二日记搞笑日常更新",斗鱼
+https://m.douyu.com/9505575
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【影视/动作】那些操作猛如虎的精彩瞬间",斗鱼
+https://m.douyu.com/9627172
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="高分悬疑电影解说",斗鱼
+https://m.douyu.com/9037784
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【速看】深度解读各种冷门佳作！",斗鱼
+https://m.douyu.com/8850682
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="疗伤点歌台：从来没有医不好的伤~",斗鱼
+https://m.douyu.com/3186217
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【牛叔2台】欢迎来到牛叔的悬疑世界",斗鱼
+https://m.douyu.com/10010651
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="胡一菲挂机勿扰",斗鱼
+https://m.douyu.com/6863367
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【奥雷】带你看遍奇葩老电影",斗鱼
+https://m.douyu.com/1224356
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="已更新！聊聊武侠与江湖",斗鱼
+https://m.douyu.com/8986636
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【小片片】国产经典剧集专属直播间",斗鱼
+https://m.douyu.com/10011547
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【1900影剧室】精讲剧场",斗鱼
+https://m.douyu.com/7796193
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【悬疑】古今中外犯罪录",斗鱼
+https://m.douyu.com/9171887
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【洗碗君】 解说 爷青回！",斗鱼
+https://m.douyu.com/9446706
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="懒猫 美食家 点播",斗鱼
+https://m.douyu.com/260322
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="美剧解说精彩不断",斗鱼
+https://m.douyu.com/9643264
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【悬疑】午夜惊悚乐园，点上关注带你探险！",斗鱼
+https://m.douyu.com/9075333
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="史剧解说洪武年间大案",斗鱼
+https://m.douyu.com/297689
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="长工带你一起来追剧",斗鱼
+https://m.douyu.com/8869614
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【拳叔】那些经典的动漫",斗鱼
+https://m.douyu.com/9484105
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="原始征途新区征战鬼谷子GO",斗鱼
+https://m.douyu.com/11543347
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="战斗吧！热血动漫全看",斗鱼
+https://m.douyu.com/9641152
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="下次直播再见，搞笑就看文西与阿漆",斗鱼
+https://m.douyu.com/8737695
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【吐槽】疯狂吐槽辣眼雷剧",斗鱼
+https://m.douyu.com/9026377
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="今天咱们吃一顿好的，持续更新..",斗鱼
+https://m.douyu.com/961386
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【红雷】经典电视剧精讲",斗鱼
+https://m.douyu.com/9650131
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【令狐冲】什么是江湖",斗鱼
+https://m.douyu.com/9653063
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="范闲、王启年、陈萍萍~",斗鱼
+https://m.douyu.com/5908256
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="三倍快乐多重快乐（1000+视频）",斗鱼
+https://m.douyu.com/238643
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="刘哔讲电影，东北话解说嘎嘎强",斗鱼
+https://m.douyu.com/2632223
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【贤于葛格】最会讲电影的贤于来啦",斗鱼
+https://m.douyu.com/9461990
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="经典美剧解说，悬疑科幻惊悚",斗鱼
+https://m.douyu.com/9123570
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【鬼兄奇谈】午夜故事，提神醒脑，清清凉凉",斗鱼
+https://m.douyu.com/8722254
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【动漫】超燃 怀旧 经典",斗鱼
+https://m.douyu.com/1174353
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="喜欢不要忘记关注哦",斗鱼
+https://m.douyu.com/9038894
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="漫威迷集合",斗鱼
+https://m.douyu.com/1713615
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="一个只讲恐怖电影的电影解说",斗鱼
+https://m.douyu.com/8415464
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="梁山好汉都在此",斗鱼
+https://m.douyu.com/3472959
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="1000部悬疑电影",斗鱼
+https://m.douyu.com/9601429
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="睡前故事会",斗鱼
+https://m.douyu.com/7422897
+#EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【老王】经典电影看不停",斗鱼
+https://m.douyu.com/9687733
 #EXTINF:-1 group-title="解说" tvg-logo="https://epg.112114.xyz/logo/电影解说1.png" tvg-name="电影解说1",电影解说1
 http://epg.112114.xyz/douyu/1979257
 #EXTINF:-1 group-title="解说" tvg-logo="https://epg.112114.xyz/logo/电影解说2.png" tvg-name="电影解说2",电影解说2
@@ -996,18 +1236,6 @@ http://bp-caster.bestv.com.cn:80/335/3/video.m3u8
 http://bp-caster.bestv.com.cn:80/320/play.m3u8
 #EXTINF:-1 group-title="百视" tvg-logo="https://epg.112114.xyz/logo/猫和老鼠.png" tvg-name="猫和老鼠",猫和老鼠
 http://bp-caster.bestv.com.cn:80/319/1/video.m3u8
-#EXTINF:-1 group-title="影视·4K" tvg-logo="https://epg.112114.xyz/logo/LOUPE4K.png" tvg-name="loupe 4K",loupe 4K
-https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
-#EXTINF:-1 group-title="影视·4K" tvg-logo="https://epg.112114.xyz/logo/ULTRANATURETV4K.png" tvg-name="ULTRA NATURE TV 4K",ULTRA NATURE TV 4K
-http://185.236.229.31:9981/play/a01d
-#EXTINF:-1 group-title="影视·4K" tvg-logo="https://epg.112114.xyz/logo/爱上4K.png" tvg-name="爱上4K",爱上4K
-http://111.20.40.170/PLTV/88888893/224/3221226352/index.m3u8
-#EXTINF:-1 group-title="影视·4K" tvg-logo="https://epg.112114.xyz/logo/爱自然.png" tvg-name="爱自然",爱自然
-https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-#EXTINF:-1 group-title="影视·4K" tvg-logo="https://epg.112114.xyz/logo/CLARITY.png" tvg-name="Clarity",Clarity
-https://d3thiix3tzne5u.cloudfront.net/playlist2160p.m3u8
-#EXTINF:-1 group-title="影视·4K" tvg-logo="https://epg.112114.xyz/logo/Z.png" tvg-name="MUZZIK 4K",MUZZIK 4K
-http://muzzik-live.morescreens.com/mts-a6/playlist.m3u8
 #EXTINF:-1 group-title="中广" tvg-logo="https://epg.112114.xyz/logo/首华语经典.png" tvg-name="500首华语经典",500首华语经典
 http://ls.qingting.fm/live/3412131.m3u8?bitrate=64
 #EXTINF:-1 group-title="中广" tvg-logo="https://epg.112114.xyz/logo/CRI环球资讯广播FM90.5.png" tvg-name="CRI 环球资讯广播 FM90.5",CRI 环球资讯广播 FM90.5
@@ -1848,41 +2076,41 @@ https://txmov2.a.yximgs.com/bs3/video-hls/5230931045761004318_hlsb.m3u8?pkey=AAV
 https://txmov2.a.yximgs.com/bs3/video-hls/5188146847734472653_hlsb.m3u8?pkey=AAW27VnZYedosyOZQx1hvnIua23jOxawv4eaMNL4XvcZqVWo1YQOvrLWpOs5tXtczGlig5pmclRuE4UQzgYCRafDvB5DiaY5RH-oIvZZUBU_VJWmT_YCssFAH-JIRrTJRHE
 #EXTINF:-1 group-title="体育" tvg-logo="https://epg.112114.xyz/logo/PBR+职业骑牛大赛.png" tvg-name="PBR+职业骑牛大赛",PBR+职业骑牛大赛
 https://epg.112114.xyz/huya/880221
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/金砖国家电视台.png" tvg-name="金砖国家电视台",金砖国家电视台
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/金砖国家电视台.png" tvg-name="金砖国家电视台",金砖国家电视台
 http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/动物世界.png" tvg-name="动物世界",动物世界
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/动物世界.png" tvg-name="动物世界",动物世界
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/71d7dce230b74c1b9e35b41e837ffc5f/1200.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/一片住着熊的森林1.png" tvg-name="一片住着熊的森林1",一片住着熊的森林1
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/一片住着熊的森林1.png" tvg-name="一片住着熊的森林1",一片住着熊的森林1
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/2ac6789acc644b55a4df03445561c56b/1200.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/一片住着熊的森林2.png" tvg-name="一片住着熊的森林2",一片住着熊的森林2
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/一片住着熊的森林2.png" tvg-name="一片住着熊的森林2",一片住着熊的森林2
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/969d426187eb46e19fc6839a435fbf0f/1200.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/一片住着熊的森林3.png" tvg-name="一片住着熊的森林3",一片住着熊的森林3
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/一片住着熊的森林3.png" tvg-name="一片住着熊的森林3",一片住着熊的森林3
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/fd1e9f94afe948efafaa28a882661620/1200.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/与野生动物为邻.png" tvg-name="与野生动物为邻",与野生动物为邻
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/与野生动物为邻.png" tvg-name="与野生动物为邻",与野生动物为邻
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/d25931bed86a49d4afb8780771797c19/1200.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/丛林之王美洲豹.png" tvg-name="丛林之王美洲豹",丛林之王美洲豹
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/丛林之王美洲豹.png" tvg-name="丛林之王美洲豹",丛林之王美洲豹
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/bbb1037a32ad44cf8bab822eda34bc86/1200.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/丛林勇士之战(上).png" tvg-name="丛林勇士之战",丛林勇士之战(上)
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/丛林勇士之战(上).png" tvg-name="丛林勇士之战",丛林勇士之战(上)
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/2550722b92464a749fa7aceb52e22895/1200.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/丛林勇士之战(下).png" tvg-name="丛林勇士之战",丛林勇士之战(下)
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/丛林勇士之战(下).png" tvg-name="丛林勇士之战",丛林勇士之战(下)
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/c02959d3f2b14d3abf05ec017179c964/1200.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/狮王(上).png" tvg-name="狮王",狮王(上)
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/狮王(上).png" tvg-name="狮王",狮王(上)
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/0eb0c51f46ed4171a9923dd6a9703c45/1200.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/狮王(下).png" tvg-name="狮王",狮王(下)
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/狮王(下).png" tvg-name="狮王",狮王(下)
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/a7510a06ef494458a0f23a8a6b6918d3/1200.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/传奇母狮.png" tvg-name="传奇母狮",传奇母狮
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/传奇母狮.png" tvg-name="传奇母狮",传奇母狮
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/c550dc54139b4e619e7d4a1c1ab69e56/1200.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/兄弟情深(上).png" tvg-name="兄弟情深",兄弟情深(上)
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/兄弟情深(上).png" tvg-name="兄弟情深",兄弟情深(上)
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/0700de47ebc74232bc9f5c5c178aa488/1200.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/兄弟情深(下).png" tvg-name="兄弟情深",兄弟情深(下)
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/兄弟情深(下).png" tvg-name="兄弟情深",兄弟情深(下)
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/30a35b521af54f1a88d74f7215ece1d3/1200.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/兄弟捕猎联盟.png" tvg-name="兄弟捕猎联盟",兄弟捕猎联盟
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/兄弟捕猎联盟.png" tvg-name="兄弟捕猎联盟",兄弟捕猎联盟
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/0b85d990df5c4f7fae663dc595a084bd/1200.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/充满爱的象家族1.png" tvg-name="充满爱的象家族1",充满爱的象家族1
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/充满爱的象家族1.png" tvg-name="充满爱的象家族1",充满爱的象家族1
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/4bd5e30e25244ef1a622142a1053d8c0/1200.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/充满爱的象家族2.png" tvg-name="充满爱的象家族2",充满爱的象家族2
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/充满爱的象家族2.png" tvg-name="充满爱的象家族2",充满爱的象家族2
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/0acf5b4f7fc248f1bd0801b768375fd6/1200.m3u8
-#EXTINF:-1 group-title="纪录" tvg-logo="https://epg.112114.xyz/logo/兽语如歌.png" tvg-name="兽语如歌",兽语如歌
+#EXTINF:-1 group-title="纪录片" tvg-logo="https://epg.112114.xyz/logo/兽语如歌.png" tvg-name="兽语如歌",兽语如歌
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/9d7bcf3e27d941cfac2e6c933ad9b543/1200.m3u8
 #EXTINF:-1 group-title="少儿" tvg-logo="https://epg.112114.xyz/logo/卡酷少儿.png" tvg-name="北京卡酷少儿",北京卡酷少儿
 https://epg.pw/stream/249f4deb87e7f4af8a50412efc598cf681be6558309f0219d3d34bf42f0b7aa9.m3u8
@@ -2336,12 +2564,6 @@ https://m.douyu.com/9601429
 https://m.douyu.com/7422897
 #EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【老王】经典电影看不停",斗鱼
 https://m.douyu.com/9687733
-#EXTINF:-1 group-title="CGTN" tvg-name="CGTN ",CGTN (576p)
-http://live.cgtn.com/1000/prog_index.m3u8
-#EXTINF:-1 group-title="CGTN" tvg-name="CGTN Arabic ",CGTN Arabic (576p)
-http://livear.cgtn.com/1000a/prog_index.m3u8
-#EXTINF:-1 group-title="CGTN" tvg-name="CGTN Documentary ",CGTN Documentary (576p)
-https://livedoc.cgtn.com/1000d/prog_index.m3u8
 #EXTINF:-1 group-title="上海" tvg-name="上海金山电视台 ",上海金山电视台 (270p)
 http://live.mudu.tv/watch/4zbn2f.m3u8
 #EXTINF:-1 group-title="体育" tvg-name="ELEVEN體育2台",ELEVEN體育2台
@@ -3588,7 +3810,7 @@ https://live.goodiptv.club/api/yqgd.php?id=sypd
 http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=24066336
 #EXTINF:-1 group-title="少儿" tvg-name="浙江少儿",浙江少儿
 http://hw-m-l.cztv.com/channels/lantian/channel08/360p.m3u8
-#EXTINF:-1 group-title="体育专线" tvg-logo="https://supcache.miancp.com/data/img.ye23.win/11logo/ty/mg.png" tvg-name="24小时体育台",24小时体育台
+#EXTINF:-1 group-title="体育" tvg-logo="https://supcache.miancp.com/data/img.ye23.win/11logo/ty/mg.png" tvg-name="24小时体育台",24小时体育台
 http://img.ye23.win/iptv2025ok@gmail.com/2211bc/ws.php?id=24
 #EXTINF:-1 group-title="4K" tvg-name="爱自然",爱自然
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
