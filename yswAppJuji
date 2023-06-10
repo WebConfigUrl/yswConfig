@@ -69,7 +69,7 @@
 		},
         {
 			"SiteName": "88影视",
-			"SiteUrl": "https://m.88hd.com",
+			"SiteUrl": "https://m.88hd.org",
 			"SiteEncoding": "utf-8",
 			"IsEnabled": 1,
             "IsIndex":0,
@@ -88,7 +88,7 @@
 			"RegVideoNumRemove": "第_|_集",
 			"RegVideoId": "(?<=/|id-)[0-9]{1,20}(?=\\.|-)",
 			"RegVideoImgUrl": "(?<=<div class=\"posterPic\"><img src=\")[\\s|\\S]*?(?=\")",
-            "RegJumpUrl": "https://m.88hd.com/[a-z|A-Z|0-9]+/[0-9]+/[0-9]+.html",
+            "RegJumpUrl": "https://m.88hd.org/[a-z|A-Z|0-9]+/[0-9]+/[0-9]+.html",
             "JumpUrlFormat": "{0}",
 			"PlayType": "webview",
 			"RegTitle": "(?<=<h1>)[\\s|\\S]*?(?=</h1>)",

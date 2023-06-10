@@ -4,7 +4,7 @@
   "AppSearchInfos": [
      {
       "SiteName": "88影视网",
-      "SiteSearchUrl": "https://m.88hd.com/index.php?m=vod-search-pg-{page}-wd-{search}.html",
+      "SiteSearchUrl": "https://m.88hd.org/index.php?m=vod-search-pg-{page}-wd-{search}.html",
       "SiteEncoding": "utf-8",
       "SearchType": "get",
       "UrlParams": "",
