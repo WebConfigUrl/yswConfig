@@ -2541,7 +2541,7 @@
 			"RegVideoTitleRemove": "第_|_集_|_\\r_|_\\n_|_\\t_|_\\t",
 			"RegVideoNum": "(?<=\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t)[^\\x00-\\xff]+[^\\r|^：]+(?=[：|\\r])",
 			"RegVideoNumRemove": "第_|_集_|_\\r_|_\\n_|_\\t_|_\\t",
-			"RegVideoId": "(?<=id\=)[0-9]{1,20}(?=\&type_id)",
+			"RegVideoId": "(?<=id=)[0-9]{1,20}(?=&type_id)",
 			"RegVideoImgUrl": "(?<=data-original=\")[\\s|\\S]*?(?=\")",
 			"RegJumpUrl": "https://www.taopianzy2.com/vod/detail.html?id=[0-9]+",
 			"JumpUrlFormat": "{0}",
