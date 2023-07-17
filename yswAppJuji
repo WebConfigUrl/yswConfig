@@ -207,7 +207,7 @@
 		},
         {
 			"SiteName": "电影先生",
-			"SiteUrl": "https://dyxs.de",
+			"SiteUrl": "https://dyxs31.com",
 			"MoreSiteUrls": "dyxs.me,dyxs.de,dyxs31.com,dyxs1.com,dyxs2.com,dyxs3.com,dianying.in,dyxs6.xyz,dyxs7.xyz,dyxs8.xyz,dyxs9.xyz,dyxs1.com,dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs16.com,dyxs17.com,dyxs18.com,dyxs19.com,dyxs20.com,dyxs21.com,dyxs22.com,dyxs23.com,dyxs24.com,dyxs25.com,dyxs26.com,dyxs27.com,dyxs28.com,dyxs29.com,dyxs30.com",
 			"SiteEncoding": "utf-8",
 			"IsEnabled": 1,
@@ -228,7 +228,7 @@
 			"RegVideoId": "(?<=/show-)[0-9]{1,20}(?=/)",
 			"RegVideoImgUrl": "(?<=data-src\\=\")[\\s|\\S]*?(?=\")",
             "RegJumpUrl": "/show-[0-9]+/",
-            "JumpUrlFormat": "https://dyxs.de{0}",
+            "JumpUrlFormat": "https://dyxs31.com{0}",
 			"PlayType": "webview",
 			"RegTitle": "(?<=<h1 class\\=\"page-title\">)[\\s|\\S]*?(?=</h1>)",
 			"RegScore": null,
