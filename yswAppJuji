@@ -520,6 +520,7 @@
 		{
 			"SiteName": "AB影院",
 			"SiteUrl": "https://www.pipiya.cc/",
+			"MoreSiteUrls": "pipiya.me",
 			"SiteEncoding": "utf-8",
 			"IsEnabled": 1,
 			"IsIndex": 0,
@@ -538,8 +539,8 @@
 			"RegVideoNumRemove": "第_|_集",
 			"RegVideoId": "(?<=detail/)[0-9]{1,20}(?=\\.)",
 			"RegVideoImgUrl": "(?<=data-original=\")[\\s|\\S]*?(?=\")",
-			"RegJumpUrl": "https://www.pipiya.cc/voddetail/[0-9]{1,20}.html",
-			"JumpUrlFormat": "{0}",
+			"RegJumpUrl": "/voddetail/[0-9]{1,20}.html",
+			"JumpUrlFormat": "https://www.pipiya.cc{0}",
 			"PlayType": "webview",
 			"RegTitle": "(?<=<h3 class=\"title\">)[\\s|\\S]*?(?=</h3>)",
 			"RegScore": "",
