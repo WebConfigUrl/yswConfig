@@ -1,4 +1,4 @@
-channel::https://cdn.jsdelivr.net/gh/WebConfigUrl/yswConfig/yswAppChannel
-search::https://cdn.jsdelivr.net/gh/WebConfigUrl/yswConfig/yswAppSearch
-juji::https://cdn.jsdelivr.net/gh/WebConfigUrl/yswConfig/yswAppJuji
-tv::https://cdn.jsdelivr.net/gh/WebConfigUrl/yswConfig/yswAppTv
+channel::https://ghproxy.com/https://raw.githubusercontent.com/WebConfigUrl/yswConfig/main/yswAppChannel
+search::https://ghproxy.com/https://raw.githubusercontent.com/WebConfigUrl/yswConfig/main/yswAppSearch
+juji::https://ghproxy.com/https://raw.githubusercontent.com/WebConfigUrl/yswConfig/main/yswAppJuji
+tv::https://ghproxy.com/https://raw.githubusercontent.com/WebConfigUrl/yswConfig/main/yswAppTv
