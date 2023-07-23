@@ -175,6 +175,7 @@
          ,{
 			"SiteName": "片吧影院",
 			"SiteUrl": "https://www.hemahe.com",
+			"MoreSiteUrls": "pianmas.com",
 			"SiteEncoding": "utf-8",
 			"IsEnabled": 1,
 			"IsOnlyPart": 0,
