@@ -1,0 +1,64 @@
+
+{
+
+  "AppSearchInfos": [
+     {
+      "SiteName": "茶杯狐",
+      "SiteSearchUrl": "https://cupfox.app/s/{search}",
+      "SiteEncoding": "utf-8",
+      "SearchType": "get",
+      "UrlParams": "",
+      "GroupName":"第三方搜索",
+      "HeadParams": null,
+      "IsEnabled": 1,
+      "PlayType": "video",
+      "ShowType": "text",
+      "ShowNum":30,
+    "ContentEncoded":"unicode",
+      "RegContent": "(?<=\"resources\")[\\s|\\S]*?(?=\"copy\":)",
+      "RegListNotInclude":"",
+      "RegSplit": "\"blacklist\"",
+      "IsIncludeHtml": 0,
+      "RegUrlInclude": "(?<=\"url\":\")[\\s|\\S]*?(?=\")",
+      "RegUrlNotInclude": "",
+      "RegImgUrl": "(?<=\"icon\":\")[\\s|\\S]*?(?=\")",
+      "RegVideoTitle": "(?<=\"text\":\")[\\s|\\S]*?(?=\")",
+      "RegVideoTitle2": "(?<=\"website\":\")[\\s|\\S]*?(?=\")",
+      "RegVideoActor": "",
+      "RegVideoInfo": "",
+      "RegVideoScore": "",
+      "RegVideoYear": null,
+      "RegVideoCountry": null
+    },
+   
+    {
+      "SiteName": "搜片",
+      "SiteSearchUrl": "https://soupian.pro/search?key={search}",
+      "SiteEncoding": "utf-8",
+      "SearchType": "get",
+      "UrlParams": "",
+      "GroupName":"第三方搜索",
+      "HeadParams": null,
+      "IsEnabled": 1,
+      "PlayType": "video",
+      "ShowType": "text",
+      "ShowNum":30,
+      "RegContent": "(?<=<div class=\"list-row tab-list selected\">)[\\s|\\S]*?(?=<div class=\"list-row  tab-list\">)",
+      "RegListNotInclude":"",
+      "RegSplit": "</a>",
+      "IsIncludeHtml": 0,
+      "RegUrlInclude":  "(?<=href\\=['|\"])[\\s|\\S]*?(?=['|\"])",
+      "RegUrlNotInclude": "",
+      "UrlFormat":"",
+      "RegImgUrl": "(?<=src=\")[\\s|\\S]*?(?=\")",
+      "RegVideoTitle": "(?<=<h4>)[\\s|\\S]*?(?=</h4>)",
+      "RegVideoTitle2": "(?<=</strong> -)[\\s|\\S]*?(?=</p>)",
+      "RegVideoActor": "",
+      "RegVideoInfo": "",
+      "RegVideoScore": "",
+      "RegVideoYear": null,
+      "RegVideoCountry": null
+    }
+    
+  ]
+}
