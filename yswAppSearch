@@ -349,7 +349,7 @@
     },
       {
       "SiteName": "片吧影院",
-      "SiteSearchUrl": "https://www.pianms.com/sou/-------------.html?wd={search}&submit=",
+      "SiteSearchUrl": "https://www.hemahe.com/sou/-------------.html?wd={search}&submit=",
       "SiteEncoding": "utf-8",
       "SearchType": "get",
       "UrlParams": "",
