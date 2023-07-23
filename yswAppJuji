@@ -1233,7 +1233,7 @@
 		},{
 			"SiteName": "city电影",
 			"SiteUrl": "https://www.citydy.com",
-			"MoreSiteUrls":"citydy1.com,"
+			"MoreSiteUrls":"citydy1.com,",
 			"SiteEncoding": "utf-8",
 			"IsEnabled": 1,
 			"IsIndex": 0,
