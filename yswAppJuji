@@ -2669,7 +2669,7 @@
 			"RegArea":"",
 			"RegYear": "",
 			"RegInfo": "(?<=<div class=\"video-info-item video-info-content vod_content\">)[\\s|\\S]*?(?=</span>)",
-			"RegCollectContentList": "(?<=<ul class=\"nav nav-tabs pull-right\">)[\\s|\\S]*?(?=</ul>)",
+			"RegCollectContentList": "(?<=播放节点列表)[\\s|\\S]*?(?=<div class=\"shortcuts-mobile-overlay\">)",
 			"RegCollectContent": "(?<= data-dropdown-value=\")[\\s|\\S]*?(?=\")"
 		},
          {
