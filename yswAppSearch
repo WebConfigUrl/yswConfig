@@ -257,7 +257,7 @@
       "SearchType": "get",
       "UrlParams": "",
       "HeadParams": null,
-      "IsEnabled": 1,
+      "IsEnabled": -1,
       "PlayType":"video",
       "RegContent": "(?<=<div class=\"module-list\">)[\\s|\\S]*?(?=<footer)",
       "RegListNotInclude":"",
@@ -547,7 +547,7 @@
     ,
      {
       "SiteName": "霹雳影视",
-      "SiteSearchUrl": "http://klyingshi.com/vodsearch/{search}----------1---.html",
+      "SiteSearchUrl": "https://plyy.cc/vodsearch/{search}----------1---.html",
       "SiteEncoding": "utf-8",
       "SearchType": "get",
       "UrlParams": "",
@@ -1837,7 +1837,7 @@
     },
     {
       "SiteName": "路漫漫",
-      "SiteSearchUrl": "https://www.wzwt369.com/vod/search/page/1/wd/{search}.html",
+      "SiteSearchUrl": "https://www.g916.com/vod/search/page/1/wd/{search}.html",
       "SiteEncoding": "utf-8",
       "SearchType": "get",
       "UrlParams": "",
