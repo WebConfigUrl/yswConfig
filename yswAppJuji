@@ -1234,7 +1234,7 @@
 			"RegYear": "(?<=年代：)[\\s|\\S]*?(?=</p>)",
 			"RegInfo": "(?<=简介：)[\\s|\\S]*?(?=</p>)",
 			"RegCollectContentList": "(?<=播放地址</h3>)[\\s|\\S]*?(?=</ul>)",
-			"RegCollectContent": "(?<=tab\">)[\\s|\\S]*?(?=</a>)",
+			"RegCollectContent": "(?<=tab\">)[\\s|\\S]*?(?=</a>)"
 		},
         {
 			"SiteName": "厂长资源",
