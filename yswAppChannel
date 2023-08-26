@@ -54,7 +54,7 @@
 		},
 		{
 			"SiteName": "动漫  豆瓣",
-			"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=tv&tag=%E5%8A%A8%E6%BC%AB&page_limit=50",
+			"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?&tag=%E5%8A%A8%E6%BC%AB&page_limit=50",
 			"SiteEncoding": "utf-8",
 			"SearchType": "get",
 			"UrlParams": "page_start={page-50}",
