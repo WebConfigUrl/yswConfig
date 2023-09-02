@@ -599,7 +599,7 @@
       "SearchType": "get",
       "UrlParams": "",
       "HeadParams": null,
-      "IsEnabled": 1,
+      "IsEnabled": -1,
       "PlayType":"video",
       "RegContent": "(?<=<ul class=\"img-list clearfix news-list\">)[\\s|\\S]*?(?=</ul>)",
       "RegListNotInclude":"",
