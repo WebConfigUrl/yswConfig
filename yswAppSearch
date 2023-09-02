@@ -711,7 +711,7 @@
       "IsIncludeHtml": 0,
       "RegUrlInclude": "(?<=href=\"/index.php/vod/detail/id/)[0-9]+(?=.html)",
       "RegUrlNotInclude": "",
-      "UrlFormat":"https://app.bfzyapi.com/api.php/provide/vod/?ac=detail&ids=%s",
+      "UrlFormat":"https://bfzyapi.com/api.php/provide/vod?ac=detail&ids=%s",
       "RegImgUrl": "",
       "RegVideoTitle": "(?<=style=\"width:370px;\">)[\\s|\\S]*?(?=</a>)",
       "RegVideoTitle2": "",

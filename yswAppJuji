@@ -896,7 +896,7 @@
 		}
         ,{
 			"SiteName": "暴风资源",
-			"SiteUrl": "https://app.bfzyapi.com",
+			"SiteUrl": "https://bfzyapi.com",
 			"SiteEncoding": "utf-8",
 			"IsEnabled": 1,
 			"IsIndex": 0,
