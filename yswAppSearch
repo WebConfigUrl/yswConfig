@@ -35,7 +35,7 @@
 	  "GroupName":"1资源站(稳定)",
       "UrlParams": "",
       "HeadParams": null,
-      "IsEnabled": 1,
+      "IsEnabled": 3,
       "PlayType":"video",
       "RegContent": "(?<=<ul id=\"searchUl\">)[\\s|\\S]*?(?=</ul>)",
       "RegListNotInclude":"",
