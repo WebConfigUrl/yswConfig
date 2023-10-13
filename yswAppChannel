@@ -254,7 +254,32 @@
       "RegVideoScore": "(?<=<span>)[\\s|\\S]*?(?=</span>)",
       "RegVideoYear": null,
       "RegVideoCountry": null,
-	  "SubAppSearchInfo":"周星驰电影合集,http://122.114.170.114:9696/zt/JingShengJianJiaoXiLie_|_林正英合集,http://122.114.170.114:9696/zt/LinZhengYingHeJi_|_成龙合集,http://122.114.170.114:9696/zt/ChengLongHeJi_|_悬系烧脑电影推荐,http://122.114.170.114:9696/zt/XuanXiShaoNaoDianYingTuiJian_|_超级英雄集结,http://122.114.170.114:9696/zt/ChaoJiYingXiongJiJie_|_科幻电影推荐,http://122.114.170.114:9696/zt/KeHuanDianYingTuiJian"
+	  "SubAppSearchInfo":"周星驰电影合集,http://122.114.170.114:9696/zt/ZhouXingChiHeJi_|_林正英合集,http://122.114.170.114:9696/zt/LinZhengYingHeJi_|_成龙合集,http://122.114.170.114:9696/zt/ChengLongHeJi_|_悬系烧脑电影推荐,http://122.114.170.114:9696/zt/XuanXiShaoNaoDianYingTuiJian_|_超级英雄集结,http://122.114.170.114:9696/zt/ChaoJiYingXiongJiJie_|_科幻电影推荐,http://122.114.170.114:9696/zt/KeHuanDianYingTuiJian"
+    },{
+      "SiteName": "少儿动画合集",
+      "SiteSearchUrl": "",
+      "SiteEncoding": "utf-8",
+      "SearchType": "get",
+      "UrlParams": "",
+      "HeadParams": null,
+      "IsEnabled": 3,
+	  "ShowNum":50,
+      "PlayType":"video",
+      "RegContent": "(?<=<ul id=\"searchUl\">)[\\s|\\S]*?(?=</ul>)",
+      "RegListNotInclude":"",
+      "RegSplit": "</li>",
+      "IsIncludeHtml": 0,
+      "RegUrlInclude": "(?<=href=\")[\\s|\\S]*?(?=\")",
+      "RegUrlNotInclude": "",
+      "RegImgUrl": "(?<=src=\")[\\s|\\S]*?(?=\")",
+      "RegVideoTitle": "(?<=<p class=\"name\">)[\\s|\\S]+(?=</p>)",
+      "RegVideoTitle2": "",
+      "RegVideoActor": "",
+      "RegVideoInfo": "",
+      "RegVideoScore": "(?<=<span>)[\\s|\\S]*?(?=</span>)",
+      "RegVideoYear": null,
+      "RegVideoCountry": null,
+	  "SubAppSearchInfo":"小猪佩奇全集,http://122.114.170.114:9696/zt/XiaoZhuPeiQi_|_海绵宝宝合集,http://122.114.170.114:9696/zt/HaiMianBaoBao_|_叶罗丽合集,http://122.114.170.114:9696/zt/YeLuoLiHeJi_|_海底小纵队合集,http://122.114.170.114:9696/zt/HaiDiXiaoZongDuiHeJi_|_小马宝莉合集,http://122.114.170.114:9696/zt/XiaoMaBaoLiHeJi_|_乐高合集,http://122.114.170.114:9696/zt/LeGaoHeJi_|_猫和老鼠合集,MaoHeLaoShuHeJi_|_爆笑虫子全集,http://122.114.170.114:9696/zt/BaoXiaoChongZiQuanJi_|_螺丝钉合集,http://122.114.170.114:9696/zt/LuoSiDingHeJi_|_芭比合集,BaBiHeJi_|_猪猪侠合集,http://122.114.170.114:9696/zt/ZhuZhuXiaHeJi_|_汪汪队合集,http://122.114.170.114:9696/zt/WangWangDuiHeJi_|_熊出没合集,XiongChuMeiHeJi_|_小猪佩奇合集,http://122.114.170.114:9696/zt/XiaoZhuPeiQiHeJi_|_爱探险的朵拉合集,http://122.114.170.114:9696/zt/AiTanXianDeDuoLaHeJi_|_奥特曼合集,http://122.114.170.114:9696/zt/AoTeManHeJi_|_蜡笔小新合集,http://122.114.170.114:9696/zt/LaBiXiaoXinHeJi_|_倒霉熊合集,http://122.114.170.114:9696/zt/DaoMeiXiongHeJi_|_超级飞侠合集,http://122.114.170.114:9696/zt/ChaoJiFeiXiaHeJi"
     },
 		{
 			"SiteName": "电视剧（百度）",
