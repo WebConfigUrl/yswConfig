@@ -260,6 +260,7 @@
       "SiteSearchUrl": "",
       "SiteEncoding": "utf-8",
       "SearchType": "get",
+	  "ChannelShowType": "titlenomore",
       "UrlParams": "",
       "HeadParams": null,
       "IsEnabled": 3,
