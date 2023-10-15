@@ -1656,7 +1656,7 @@
     },
      {
       "SiteName": "厂长资源",
-      "SiteSearchUrl": "https://cz01.me/xssearch?q={search}",
+      "SiteSearchUrl": "https://cz01.pw/xssearch?q={search}",
       "SiteEncoding": "utf-8",
       "CreatedBy":"luren",
       "SearchType": "get",
@@ -1944,7 +1944,7 @@
       "SearchType": "get",
       "UrlParams": "",
       "HeadParams": null,
-      "IsEnabled": 1,
+      "IsEnabled": -1,
       "PlayType":"video",
       "RegContent": "(?<=<div id=\"mdym\" class=\"row gutter-20\">)[\\s|\\S]*?(?=</section>)",
       "RegListNotInclude":"",
