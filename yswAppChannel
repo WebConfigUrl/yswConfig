@@ -99,7 +99,7 @@
       "RegVideoScore": "(?<=<span>)[\\s|\\S]*?(?=</span>)",
       "RegVideoYear": null,
       "RegVideoCountry": null,
-	  "SubAppSearchInfo":"超级搞笑,http://122.114.170.114:9696/zt/GaoXiaoDongManHeJi,国产精品动漫,http://122.114.170.114:9696/zt/GuoChanJingPinDongManHeJi"
+	  "SubAppSearchInfo":"超级搞笑,http://122.114.170.114:9696/zt/GaoXiaoDongManHeJi_|_国产精品动漫,http://122.114.170.114:9696/zt/GuoChanJingPinDongManHeJi"
     } ,
 		{
 			"SiteName": "最新电影  豆瓣",
