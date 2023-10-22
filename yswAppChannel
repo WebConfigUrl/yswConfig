@@ -258,7 +258,7 @@
       "RegVideoScore": "(?<=<span>)[\\s|\\S]*?(?=</span>)",
       "RegVideoYear": null,
       "RegVideoCountry": null,
-	  "SubAppSearchInfo":"周星驰电影合集,http://122.114.170.114:9696/zt/ZhouXingChiHeJi,imgtitle,http://upload.static.shunwang.com/ivideo/special/30/banner.jpg_|_林正英合集,http://122.114.170.114:9696/zt/LinZhengYingHeJi,imgtwo,https://i0.hdslb.com/bfs/archive/b81251c4c881186b3ef4e8f05a48d2b03d3fb4d3.jpg@336w_190h_|_成龙合集,http://122.114.170.114:9696/zt/ChengLongHeJi,imgtwo,https://i1.hdslb.com/bfs/archive/296198042a2bf385374109b894ac3a46e61f2b58.jpg@672w_378h_|_悬系烧脑电影推荐,http://122.114.170.114:9696/zt/XuanXiShaoNaoDianYingTuiJian,img,http://i0.letvimg.com/cms/201406/27/fbfcc20509634b9b8e483876321c4098.jpg_|_超级英雄集结,http://122.114.170.114:9696/zt/ChaoJiYingXiongJiJie,imgtwo,https://img4.cache.netease.com/photo/0016/2013-11-24/9EDNA8AS4R7R0016.jpg_|_科幻电影推荐,http://122.114.170.114:9696/zt/KeHuanDianYingTuiJian,imgtwo,https://i1.hdslb.com/bfs/archive/d4b080cc76275513b2216167f6551d1b9aa3d395.jpg@672w_378h_|_周润发合集,http://122.114.170.114:9696/zt/ZhouRunFaHeJi_|_李连杰全集,http://122.114.170.114:9696/zt/LiLianJieQuanJi_|_刘德华合集,http://122.114.170.114:9696/zt/LiuDeHuaHeJi_|_吴京合集,http://122.114.170.114:9696/zt/WuJingHeJi_|_梁朝伟合集,http://122.114.170.114:9696/zt/LiangChaoWeiHeJi"
+	  "SubAppSearchInfo":"周星驰电影合集,http://122.114.170.114:9696/zt/ZhouXingChiHeJi,imgtitle,http://upload.static.shunwang.com/ivideo/special/30/banner.jpg_|_林正英合集,http://122.114.170.114:9696/zt/LinZhengYingHeJi,imgtwo,https://i0.hdslb.com/bfs/archive/b81251c4c881186b3ef4e8f05a48d2b03d3fb4d3.jpg@336w_190h_|_成龙合集,http://122.114.170.114:9696/zt/ChengLongHeJi,imgtwo,https://i1.hdslb.com/bfs/archive/296198042a2bf385374109b894ac3a46e61f2b58.jpg@672w_378h_|_悬系烧脑电影推荐,http://122.114.170.114:9696/zt/XuanXiShaoNaoDianYingTuiJian,img,http://i0.letvimg.com/cms/201406/27/fbfcc20509634b9b8e483876321c4098.jpg_|_超级英雄集结,http://122.114.170.114:9696/zt/ChaoJiYingXiongJiJie,imgtwo,https://img4.cache.netease.com/photo/0016/2013-11-24/9EDNA8AS4R7R0016.jpg_|_科幻电影推荐,http://122.114.170.114:9696/zt/KeHuanDianYingTuiJian,imgtwo,https://i1.hdslb.com/bfs/archive/d4b080cc76275513b2216167f6551d1b9aa3d395.jpg@672w_378h_|_周润发合集,http://122.114.170.114:9696/zt/ZhouRunFaHeJi_|_李连杰全集,http://122.114.170.114:9696/zt/LiLianJieQuanJi_|_刘德华合集,http://122.114.170.114:9696/zt/LiuDeHuaHeJi_|_吴京合集,http://122.114.170.114:9696/zt/WuJingHeJi_|_梁朝伟合集,http://122.114.170.114:9696/zt/LiangChaoWeiHeJi_|_搞笑电影,http://122.114.170.114:9696/zt/GaoXiaoDianYingJiHe"
     },{
       "SiteName": "少儿动画合集",
       "SiteSearchUrl": "",
@@ -336,7 +336,7 @@
       "RegVideoScore": "(?<=<span>)[\\s|\\S]*?(?=</span>)",
       "RegVideoYear": null,
       "RegVideoCountry": null,
-	  "SubAppSearchInfo":"国产精品电视剧,http://122.114.170.114:9696/zt/GuoChanJingPinDianShiJuJiHe"
+	  "SubAppSearchInfo":"国产精品电视剧,http://122.114.170.114:9696/zt/GuoChanJingPinDianShiJuJiHe_|_搞笑电视剧,http://122.114.170.114:9696/zt/GaoXiaoDianShiJuJiHe"
     } 
       
 	]
