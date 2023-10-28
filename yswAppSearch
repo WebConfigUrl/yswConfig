@@ -375,7 +375,7 @@
     },
       {
       "SiteName": "片吧影院",
-      "SiteSearchUrl": "https://www.hemayes.com/sou/-------------.html?wd={search}&submit=",
+      "SiteSearchUrl": "https://www.hemaha.com/sou/-------------.html?wd={search}&submit=",
       "SiteEncoding": "utf-8",
       "SearchType": "get",
       "UrlParams": "",
@@ -1656,7 +1656,7 @@
     },
      {
       "SiteName": "厂长资源",
-      "SiteSearchUrl": "https://cz01.pw/xssearch?q={search}",
+      "SiteSearchUrl": "https://www.czzy88.com/xssearch?q={search}",
       "SiteEncoding": "utf-8",
       "CreatedBy":"luren",
       "SearchType": "get",
@@ -1786,7 +1786,7 @@
     },
      {
       "SiteName": "金曼TV",
-      "SiteSearchUrl": "https://jinmantv.com/index.php/vod/search.html?wd={search}",
+      "SiteSearchUrl": "https://jinman2.com/index.php/vod/search.html?wd={search}",
       "SiteEncoding": "utf-8",
       "SearchType": "get",
       "UrlParams": "",
