@@ -1410,7 +1410,7 @@
 			"RegUrlNotInclude": "",
 			"RegVideoTitle": "(?<=播放\">)[\\s|\\S]+(?=</a>)",
 			"RegVideoTitleRemove": "第_|_集",
-			"RegVideoNum":"(?<=播放">)[\\s|\\S]+(?=</a>)",
+			"RegVideoNum":"(?<=播放\">)[\\s|\\S]+(?=</a>)",
 			"RegVideoNumRemove": "第_|_集",
 			"RegVideoId": "(?<=vod-detail-id-)[0-9]{1,20}(?=.html)",
 			"RegVideoImgUrl": "(?<=<img src=\")[\\s|\\S]*?(?=\")",
