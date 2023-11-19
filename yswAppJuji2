@@ -1471,7 +1471,7 @@
             "IsIndex":0,
 			"IsOnlyPart": 0,
 			"IsAlwaysLoadUrl": 0,
-			"OrderBy": 2,
+			"OrderBy": 1,
 			"RegContent": "(?<=id=\"hl-plays-list)[\\s|\\S]*?(?=</ul>)",
 			"RegContentInclude": null,
 			"RegSplit": "</li>",
