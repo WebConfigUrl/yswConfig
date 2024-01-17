@@ -1190,7 +1190,7 @@
 			"RegActor": "(?<=\"vod_actor\":\")[\\s|\\S]*?(?=\")",
 			"RegArea":"(?<=\"vod_area\":\")[\\s|\\S]*?(?=\")",
 			"RegYear": "(?<=\"vod_year\":\")[\\s|\\S]*?(?=\")",
-			"RegInfo":"(?<=\"vod_content\":\")[\\s|\\S]*?(?=\")",
+			"RegInfo":"(?<=\"vod_content\":\")[\\s|\\S]*?(?=\",\")",
 			"RegCollectContentList": "(?<=\"vod_play_from\":\")[\\s|\\S]*?(?=\")",
 			"RegCollectContent": "[\\s|\\S]*?(?=\\$)"
 		},
