@@ -228,7 +228,7 @@
     }  ,
     {
       "SiteName": "AB影院",
-      "SiteSearchUrl": "https://www.pipiya.cc/vodsearch/{search}----------1---.html",
+      "SiteSearchUrl": "https://www.npinet.com/vodsearch/{search}----------1---.html",
       "SiteEncoding": "utf-8",
       "SearchType": "get",
       "UrlParams": "",
@@ -1047,7 +1047,7 @@
       "UrlParams": "",
       "GroupName":"",
       "HeadParams": null,
-      "IsEnabled": 1,
+      "IsEnabled": -1,
       "PlayType":"video",
       "RegContent": "(?<=<ul class=\"stui-vodlist clearfix\">)[\\s|\\S]*?(?=</ul>)",
       "RegListNotInclude":"",
