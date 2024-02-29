@@ -377,7 +377,7 @@
       "SearchType": "get",
       "UrlParams": "",
       "HeadParams": null,
-      "IsEnabled": 3,
+      "IsEnabled": -1,
       "PlayType": "video",
       "RegContent": "(?<=<list)[\\s|\\S]*?(?=</list>)",
       "RegListNotInclude":"",
