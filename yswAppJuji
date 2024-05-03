@@ -2243,7 +2243,7 @@
 		},
          {
 			"SiteName": "金曼TV",
-			"SiteUrl": "https://jinman2.com",
+			"SiteUrl": "https://jinman3.com",
 			"MoreSiteUrls": "jinmantv.com,jinman2.com",
 			"SiteEncoding": "utf-8",
 			"IsEnabled": 1,
@@ -2594,7 +2594,7 @@
 			"SiteName": "快云资源",
 			"SiteUrl": "https://kuaiyun-api.com",
 			"SiteEncoding": "utf-8",
-			"IsEnabled": 1,
+			"IsEnabled": 0,
 			"IsIndex": 0,
             "IsShowInIndex": 0,
 			"IsOnlyPart": 0,
