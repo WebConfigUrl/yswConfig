@@ -39,7 +39,7 @@
       "UrlParams": "",
       "GroupName":"VIP搜索",
       "HeadParams": null,
-      "IsEnabled": 3,
+      "IsEnabled": -1,
       "PlayType": "video",
       "ShowType": "text",
       "ShowNum":30,
