@@ -2519,7 +2519,7 @@
             "RegCollectContent": "(?<=class=\"on\" >)[\\s|\\S]*?(?=</li>)"
 		},{
 			"SiteName": "2345",
-			"SiteUrl": "https://so-kan.2345.com",
+			"SiteUrl": "https://tv.2345.com",
 			"MoreSiteUrls":"",
 			"SiteEncoding": "utf-8",
 			"IsEnabled": 3,
