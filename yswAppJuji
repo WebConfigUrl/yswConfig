@@ -2541,6 +2541,7 @@
 			"RegVideoImgUrl": "(?<=itemprop=\"thumbnailUrl\" content=\")[\\s|\\S]*?(?=\")",
             "RegJumpUrl":  "",
 			"JumpUrlFormat": "{0}",
+			"VideoSourceJumpUrlFormat": "http://122.114.170.114:9696/play.html?url={0}",
 			"PlayType": "webview",
 			"RegTitle": "(?<=property=\"og:title\" content=\")[\\s|\\S]*?(?=\")",
 			"RegScore": "(?<=<em class=\"emScore\">)[\\s|\\S]*?(?=</em>)",
