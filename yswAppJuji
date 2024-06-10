@@ -2550,7 +2550,7 @@
 			"RegArea":  "(?<=itemprop=\"contentLocation\" content=\")[\\s|\\S]*?(?=\")",
 			"RegYear": "(?<=itemprop=\"datePublished\" content=\")[\\s|\\S]*?(?=\")",
 			"RegInfo":  "(?<=<p class=\"pIntro pShow\" style=\"display: none;\">)[\\s|\\S]*?(?=</span>)",
-			"RegCollectContentList": "(?<=<div class=\"series-tab-left\">)[\\s|\\S]*?(?=<div class=\"series-tab-right\">)",
+			"RegCollectContentList": "(?<=<div class=\"series-tab-left\">)[\\s|\\S]*?(?=<div class=\"series-con\">)",
             "RegCollectContent": "(?<=</i>)[\\s|\\S]*?(?=</a>)"
 		},
         {
