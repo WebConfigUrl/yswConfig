@@ -52,6 +52,32 @@
       "RegVideoScore": "(?<=<span>)[\\s|\\S]*?(?=</span>)",
       "RegVideoYear": null,
       "RegVideoCountry": null
+    },{
+      "SiteName": "2345",
+      "SiteSearchUrl": "https://so-kan.2345.com/search_{search}/",
+      "SiteEncoding": "utf-8",
+      "SearchType": "get",
+	  "Remark":"【推荐】",
+	  "GroupName":"VIP搜索",
+      "UrlParams": "",
+      "HeadParams": null,
+      "IsEnabled": 3,
+	  "ShowNum":50,
+      "PlayType":"video",
+      "RegContent": "(?<=<div class=\"itemList\" id=\"searchListUl\">)[\\s|\\S]*?(?=<div class=\"v_page\")",
+      "RegListNotInclude":"",
+      "RegSplit": "<div class=\"item clearfix\">",
+      "IsIncludeHtml": 0,
+      "RegUrlInclude": "(?<=href=\")[\\s|\\S]*?(?=\")",
+      "RegUrlNotInclude": "",
+      "RegImgUrl": "(?<=data-src=\")[\\s|\\S]*?(?=\")",
+      "RegVideoTitle": "(?<=title=\")[\\s|\\S]+(?=\")",
+      "RegVideoTitle2": "",
+      "RegVideoActor": "",
+      "RegVideoInfo": "",
+      "RegVideoScore": "(?<=div class=\"playSourceTab clearfix\">)[\\s|\\S]*?(?=</div>)",
+      "RegVideoYear": null,
+      "RegVideoCountry": null
     },
     
     {
