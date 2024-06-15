@@ -2507,6 +2507,7 @@
 			"RegVideoImgUrl": "(?<=data-original=\")[\\s|\\S]*?(?=\")",
             "RegJumpUrl":  "(?<=[a-z|A-Z]{1,20}/)[0-9]{1,20}",
 			"JumpUrlFormat": "http://122.114.170.114:9696/dianying/{0}",
+			"VideoSourceJumpUrlFormat": "http://122.114.170.114:9696/play.html?url={0}",
 			"PlayType": "video",
 			"RegTitle": "(?<=<dt class=\"name\">)[\\s|\\S]*?(?=</dt>)",
 			"RegScore": "(?<=评分：</b>)[\\s|\\S]*?(?=</dd>)",
