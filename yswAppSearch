@@ -80,7 +80,7 @@
       "RegVideoCountry": null
     },{
       "SiteName": "小帽子聚合",
-      "SiteSearchUrl": "https://zy.xiaomaomi.cc/api.php/provide/vod/?wd={search}&ac=detail",
+      "SiteSearchUrl": "http://zy.xiaomaomi.cc/api.php/provide/vod/?wd={search}&ac=detail",
       "SiteEncoding": "utf-8",
       "SearchType": "get",
       "GroupName":"VIP搜索",

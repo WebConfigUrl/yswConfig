@@ -2516,7 +2516,24 @@
 			"RegYear": "(?<=年代：</b>)[\\s|\\S]*?(?=</dd>)",
 			"RegInfo":  "(?<=<div class=\"des2\"><b>剧情：</b>)[\\s|\\S]*?(?=<b class=\"aa\">)",
 			"RegCollectContentList": "(?<=start source)[\\s|\\S]*?(?=end source)",
-            "RegCollectContent": "(?<=class=\"on\" >)[\\s|\\S]*?(?=</li>)"
+            "RegCollectContent": "(?<=class=\"on\" >)[\\s|\\S]*?(?=</li>)",
+			"ListJujiInfos": [{
+					"RegContent": "(?<=sources\\[)[\\s|\\S]*?(?=\\];)",
+					"RegContentInclude": null,
+					"RegSplit": "\\},",
+					"IsIncludeHtml": 1,
+					"RegUrlInclude": "(?<=url\\=)[\\s|\\S]*?(?=bsource)",
+					"RegUrlNotInclude": "",
+					"RegVideoTitle": "(?<=ep: \")[\\s|\\S]*?(?=\")",
+					"RegVideoTitleRemove": "第_|_集",
+					"RegVideoNum": "(?<=ep: \")[\\s|\\S]*?(?=\")",
+					"RegVideoNumRemove": "第_|_集",
+					"ContentEncoded": "unicode",
+					"JumpUrlFormat": "https://movie.douban.com/subject/{0}/",
+					"RegCollectContentList": "(?<=<ul class=\"bs\">)[\\s|\\S]*?(?=</ul>)",
+					"RegCollectContent": "(?<=;\">)[\\s|\\S]*?(?=</a>)"
+				}
+			]
 		},{
 			"SiteName": "2345",
 			"SiteUrl": "https://tv.2345.com",
@@ -2554,7 +2571,7 @@
             "RegCollectContent": "(?<=</i>)[\\s|\\S]*?(?=</a>)"
 		},{
 			"SiteName": "小帽子聚合",
-			"SiteUrl": "https://zy.xiaomaomi.cc",
+			"SiteUrl": "http://zy.xiaomaomi.cc",
 			"SiteEncoding": "utf-8",
 			"IsEnabled": 3,
 			"IsIndex": 0,
