@@ -2507,7 +2507,7 @@
 			"RegVideoImgUrl": "(?<=data-original=\")[\\s|\\S]*?(?=\")",
             "RegJumpUrl":  "(?<=[a-z|A-Z]{1,20}/)[0-9]{1,20}",
 			"JumpUrlFormat": "http://122.114.170.114:9696/dianying/{0}",
-			"VideoSourceJumpUrlFormat": "http://122.114.170.114:9696/play.html?url={0}",
+			
 			"PlayType": "video",
 			"RegTitle": "(?<=<dt class=\"name\">)[\\s|\\S]*?(?=</dt>)",
 			"RegScore": "(?<=评分：</b>)[\\s|\\S]*?(?=</dd>)",
@@ -2519,18 +2519,21 @@
 			"RegCollectContentList": "(?<=start source)[\\s|\\S]*?(?=end source)",
             "RegCollectContent": "(?<=class=\"on\" >)[\\s|\\S]*?(?=</li>)",
 			"ListJujiInfos": [{
-					"RegContent": "(?<=sources\\[)[\\s|\\S]*?(?=\\];)",
+					"RegContent": "(?<=   sources\\[)[\\s|\\S]*?(?= \\];)",
 					"RegContentInclude": null,
 					"RegSplit": "\\},",
 					"IsIncludeHtml": 1,
-					"RegUrlInclude": "(?<=url\\=)[\\s|\\S]*?(?=bsource)",
+					"OrderBy": 1,
+					"HeadParams": "User-Agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.3729.108%20Safari%2F537.36",
+					"RegUrlInclude": "(?<=url\\=)[\\s|\\S]*?(?=&amp;subtype)",
 					"RegUrlNotInclude": "",
 					"RegVideoTitle": "(?<=ep: \")[\\s|\\S]*?(?=\")",
 					"RegVideoTitleRemove": "第_|_集",
 					"RegVideoNum": "(?<=ep: \")[\\s|\\S]*?(?=\")",
 					"RegVideoNumRemove": "第_|_集",
-					"ContentEncoded": "unicode",
+					"ContentEncoded": "urlencoder",
 					"JumpUrlFormat": "https://movie.douban.com/subject/{0}/",
+					"VideoSourceJumpUrlFormat": "http://122.114.170.114:9696/play.html?url={0}&11=1.html",
 					"RegCollectContentList": "(?<=<ul class=\"bs\">)[\\s|\\S]*?(?=</ul>)",
 					"RegCollectContent": "(?<=;\">)[\\s|\\S]*?(?=</a>)"
 				}
