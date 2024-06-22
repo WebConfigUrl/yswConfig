@@ -94,7 +94,7 @@
       "IsIncludeHtml": 0,
       "RegUrlInclude": "(?<=\"vod_id\":)[\\s|\\S]*?(?=,)",
       "RegUrlNotInclude": "",
-      "UrlFormat":"https://zy.xiaomaomi.cc/api.php/provide/vod/?ac=detail&ids=%s",
+      "UrlFormat":"http://zy.xiaomaomi.cc/api.php/provide/vod/?ac=detail&ids=%s",
       "RegImgUrl": "(?<=\"vod_pic\":\")[\\s|\\S]*?(?=\")",
       "RegVideoTitle": "(?<=\"vod_name\":\")[\\s|\\S]*?(?=\")",
       "RegVideoTitle2": "",

@@ -2535,7 +2535,7 @@
 					"JumpUrlFormat": "https://movie.douban.com/subject/{0}/",
 					"VideoSourceJumpUrlFormat": "http://122.114.170.114:9696/play.html?url={0}&11=1.html",
 					"RegCollectContentList": "(?<=<ul class=\"bs\">)[\\s|\\S]*?(?=</ul>)",
-					"RegCollectContent": "(?<=;\">)[\\s|\\S]*?(?=</a>)"
+					"RegCollectContent": "(?<=data-cn=\")[\\s|\\S]*?(?=\")"
 				}
 			]
 		},{
@@ -2554,7 +2554,7 @@
 			"IsIncludeHtml": 1,
 			"RegUrlInclude": "(?<=href\\=['|\"])[\\s|\\S]*?(?=['|\"])",
 			"RegUrlNotInclude": "",
-			"RegVideoTitle": "(?<=<div class=\"series-con-a\">)[\\s|\\S]*?(?=</a>)",
+			"RegVideoTitle": "(?<=\" >)[\\s|\\S]*?(?=</a>)",
 			"RegVideoTitleRemove": "第_|_集",
 			"RegVideoNum":  "(?<=data-ajax25index=\")[\\s|\\S]*?(?=\")",
 			"RegVideoNumRemove": "第_|_集",
@@ -2583,7 +2583,7 @@
 			"IsOnlyPart": 0,
 			"IsAlwaysLoadUrl": 0,
 			"OrderBy": 2,
-			"RegContent": "((?<=\"vod_play_url\":\")[\\s|\\S]*?(?=[\\$\\$\\$]{3}|\")|(?<=\"vod_play_url\":\"[\\s|\\S]*?[\\$\\$\\$]{3})[\\s|\\S]*?(?=[\\$\\$\\$]{3}|\")|(?<=\"vod_play_url\":\"[\\s|\\S]*?[\\$\\$\\$]{3}[\\s|\\S]*?[\\$\\$\\$]{3})[\\s|\\S]*?(?=[\\$\\$\\$]{3}|\"))",
+			"RegContent": "((?<=\"vod_play_url\":\")[\\s|\\S]*?(?=[\\$\\$\\$]{3}|\")|(?<=[\\$\\$\\$]{3})[\\s|\\S]*?(?=[\\$\\$\\$]{3}|\"))",
 			"RegContentInclude": null,
 			"RegSplit": "#",
 			"IsIncludeHtml": 1,
