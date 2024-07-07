@@ -2947,9 +2947,9 @@
 			"RegVideoTitleRemove": "第_|_集",
 			"RegVideoNum": "(?<=target=\"_blank\">)[\\s|\\S]*?(?=</a>)",
 			"RegVideoNumRemove": "第_|_集",
-			"RegVideoId": "(?<=/detail1/)[0-9]+/[0-9]+/[0-9]{1,20}(?=.html)",
+			"RegVideoId": "(?<=/detail1/)[0-9]+/[0-9]+/[a-z|A-Z|0-9]{1,20}(?=.html)",
 			"RegVideoImgUrl": "(?<=data-original=\")http[\\s|\\S]*?(?=\")",
-			"RegJumpUrl": "https://www.honglingjin.tv/detail1/[0-9]+/[0-9]+/[0-9]{1,20}.html",
+			"RegJumpUrl": "https://www.honglingjin.tv/detail1/[0-9]+/[0-9]+/[a-z|A-Z|0-9]{1,20}.html",
 			"JumpUrlFormat": "{0}",
 			"PlayType": "webview",
 			"RegTitle": "(?<=<h1 id=\"name\" class=\"title\" style=\"font-weight: 700;\">)[\\s|\\S]*?(?=</h1>)",
@@ -2959,8 +2959,8 @@
 			"RegArea":"(?<=地区：)[\\s|\\S]*?(?=/)",
 			"RegYear":"(?<=年份：)[\\s|\\S]*?(?=</p>)",
 			"RegInfo": "(?<=<div class=\"module-info-introduction-content\">)[\\s|\\S]*?(?=</div>)",
-			"RegCollectContentList": "(?<=\">)[\\s|\\S]*?(?=</li>)",
-			"RegCollectContent": "(?<=<ul class=\"layui-tab-title\">)[\\s|\\S]*?(?=</ul>)"
+			"RegCollectContentList": "(?<=<ul class=\"layui-tab-title\">)[\\s|\\S]*?(?=</ul>)",
+			"RegCollectContent": "(?<=\">)[\\s|\\S]*?(?=</li>)"
 		},{
 			"SiteName": "绕滚",
 			"SiteUrl": "http://www.raogunvip.com",
@@ -2994,8 +2994,8 @@
 			"RegArea":"",
 			"RegYear":"",
 			"RegInfo": "(?<=<p class=\"col-pd\">)[\\s|\\S]*?(?=</p>)",
-			"RegCollectContentList": "(?<=<h3 class=\"title\">)[\\s|\\S]*?(?=<small>)",
-			"RegCollectContent": "(?<=看原著小)[\\s|\\S]*?(?=剧情简介)"
+			"RegCollectContentList": "(?<=看原著小)[\\s|\\S]*?(?=剧情简介)",
+			"RegCollectContent": "(?<=<h3 class=\"title\">)[\\s|\\S]*?(?=<small>)"
 		}
 	]
 }
