@@ -195,6 +195,281 @@ http://221.0.78.198:1681/hls/10231/index.m3u8
 http://221.0.78.198:1681/hls/10238/index.m3u8
 #EXTINF:-1 group-title="卫视华" tvg-logo="https://epg.112114.xyz/logo/香港卫视.png" tvg-name="香港卫视",香港卫视
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTM3U
+#EXTINF:-1 group-title="卫视" playtype="webview" tvg-name="江苏卫视",江苏卫视
+https://live.jstv.com/
+#EXTINF:-1 group-title="卫视" playtype="webview" tvg-name="吉林卫视",吉林卫视
+https://www.jlntv.cn/tv?id=104
+#EXTINF:-1 group-title="卫视" playtype="webview" tvg-name="黑龙江卫视",黑龙江卫视
+https://www.hljtv.com/live/folder418/
+#EXTINF:-1 group-title="卫视" playtype="webview" tvg-name="河北卫视",河北卫视
+https://web.cmc.hebtv.com/cms/rmt0336_html/19/19js/st/xdszb/10524916.shtml
+#EXTINF:-1 group-title="卫视" playtype="webview" tvg-name="山东卫视",山东卫视
+http://v.iqilu.com/live/sdtv/
+#EXTINF:-1 group-title="卫视" playtype="webview" tvg-name="重庆卫视",重庆卫视
+https://www.cbg.cn/web/list/4918/1.html?5DEFC70C1A4AOD5173881C62BD4ACAD0
+#EXTINF:-1 group-title="卫视" playtype="webview" tvg-name="新疆卫视",新疆卫视
+https://www.xjtvs.com.cn/live/xjtv.shtml
+#EXTINF:-1 group-title="卫视" playtype="webview" tvg-name="内蒙古卫视",内蒙古卫视
+https://www.nmtv.cn/liveTv
+#EXTINF:-1 group-title="卫视" playtype="webview" tvg-name="江西卫视",江西卫视
+https://www.jxntv.cn/live/
+#EXTINF:-1 group-title="卫视" playtype="webview" tvg-name="陕西卫视",陕西卫视
+http://live.snrtv.com/star
+#EXTINF:-1 group-title="卫视" tvg-name="甘肃卫视",甘肃卫视
+https://hls.gstv.com.cn/49048r/6e1sy2.m3u8
+#EXTINF:-1 group-title="卫视" playtype="webview" tvg-name="贵州卫视频道",贵州卫视频道
+https://www.gzstv.com/tv/ch01
+#EXTINF:-1 group-title="卫视" playtype="webview" tvg-name="东南卫视",东南卫视
+https://live.fjtv.net/setv/
+#EXTINF:-1 group-title="卫视" playtype="webview" tvg-name="安徽卫视",安徽卫视
+https://www.ahtv.cn/folder9000/folder20193?channelIndex=0
+#EXTINF:-1 group-title="卫视" playtype="webview" tvg-name="广西卫视",广西卫视
+https://tv.gxtv.cn/channel/channelivePlay_e7a7ab7df9fe11e88bcfe41f13b60c62.html
+#EXTINF:-1 group-title="卫视" playtype="webview" tvg-name="海南卫视",海南卫视
+https://www.hnntv.cn/live.html?playType=livePlay&channelId=13&referPage=home
+#EXTINF:-1 group-title="卫视" playtype="webview" tvg-name="云南卫视",云南卫视
+https://www.yntv.cn/live.html
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="海港城北区分局破案王",海港城北区分局破案王
+https://www.huya.com/26355795
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="【鹿鼎记】小春版韦小宝 是你心中最经典的版本吗？",【鹿鼎记】小春版韦小宝 是你心中最经典的版本吗？
+https://www.huya.com/23865080
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="御.一个人的武林.甄子丹宝强.经典",御.一个人的武林.甄子丹宝强.经典
+https://www.huya.com/913155
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="漫威英雄集合，谁是你的爱",漫威英雄集合，谁是你的爱
+https://www.huya.com/26355802
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="鬼片专场 胆小勿进~",鬼片专场 胆小勿进~
+https://www.huya.com/23796393
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="西虹市首富 沈腾",西虹市首富 沈腾
+https://www.huya.com/128391
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="铁齿铜ya纪晓岚 经典铁三角组合",铁齿铜ya纪晓岚 经典铁三角组合
+https://www.huya.com/11342396
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="【周星星】星爷经典不间断",【周星星】星爷经典不间断
+https://www.huya.com/11342412
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="雍正皇帝的风云一生",雍正皇帝的风云一生
+https://www.huya.com/11342439
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="斗宗强者，莫欺少年穷！",斗宗强者，莫欺少年穷！
+https://www.huya.com/11336572
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="故人之徒！四方阁大会！",故人之徒！四方阁大会！
+https://www.huya.com/29863394
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="斗帝萧炎~美杜莎",斗帝萧炎~美杜莎
+https://www.huya.com/mit26649
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="温柔重庆妹妹",温柔重庆妹妹
+https://www.huya.com/23025
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="【超级交通站】抗ri情景喜剧",【超级交通站】抗ri情景喜剧
+https://www.huya.com/11342433
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="【五倍】潮汕小土豆",【五倍】潮汕小土豆
+https://www.huya.com/396738
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="云长，我不能走啊",云长，我不能走啊
+https://www.huya.com/18671151
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="百看不厌，难怪它火了26年，武侠巅峰之作《神雕侠侣》第1期",百看不厌，难怪它火了26年，武侠巅峰之作《神雕侠侣》第1期
+https://www.huya.com/adgll
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="遮天最新集~",遮天最新集~
+https://www.huya.com/29811228
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="陈翔六点半·更新到301集了",陈翔六点半·更新到301集了
+https://www.huya.com/cxldb
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="枪在手跟我走",枪在手跟我走
+https://www.huya.com/396729
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="滚滚长江东逝水",滚滚长江东逝水
+https://www.huya.com/11352944
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="大家好 我曾小咸又回来啦",大家好 我曾小咸又回来啦
+https://www.huya.com/11336726
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="木叶丶名场面",木叶丶名场面
+https://www.huya.com/15013529
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="我懿症发作啦",我懿症发作啦
+https://www.huya.com/29465868
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="潘粤明—鬼吹灯",潘粤明—鬼吹灯
+https://www.huya.com/29773508
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="周星驰   进来背台词啦",周星驰   进来背台词啦
+https://www.huya.com/26508934
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="我与罪恶不共戴天",我与罪恶不共戴天
+https://www.huya.com/25716123
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="英叔护体 | 林正英搞笑僵尸系列",英叔护体 | 林正英搞笑僵尸系列
+https://www.huya.com/11342421
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="大女主魏璎珞杀疯了",大女主魏璎珞杀疯了
+https://www.huya.com/26355864
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="【古惑仔】进来看看",【古惑仔】进来看看
+https://www.huya.com/128358
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="纪晓岚",纪晓岚
+https://www.huya.com/25682798
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="【林正英】僵尸猛鬼电影",【林正英】僵尸猛鬼电影
+https://www.huya.com/25129377
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="苏大强想喝手磨咖啡",苏大强想喝手磨咖啡
+https://www.huya.com/21059594
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="武魂世界充满了血腥和危险",武魂世界充满了血腥和危险
+https://www.huya.com/11352906
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="霍建华版令狐冲",霍建华版令狐冲
+https://www.huya.com/26355858
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="赵云冲我来了",赵云冲我来了
+https://www.huya.com/29318937
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="大哥！请留步~",大哥！请留步~
+https://www.huya.com/29140342
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="【新水浒传】108好汉",【新水浒传】108好汉
+https://www.huya.com/27288819
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="鼠胆龙威",鼠胆龙威
+https://www.huya.com/22176145
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="陆小凤 小胡子 来啦~",陆小凤 小胡子 来啦~
+https://www.huya.com/29808803
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="【林正英】僵尸恐怖鬼片",【林正英】僵尸恐怖鬼片
+https://www.huya.com/25742076
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="在下姓狄名仁杰",在下姓狄名仁杰
+https://www.huya.com/29528581
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="经典！大侠令狐冲",经典！大侠令狐冲
+https://www.huya.com/26355790
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="【虎牙影院】沈腾经典片放映",【虎牙影院】沈腾经典片放映
+https://www.huya.com/11601968
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="鬼吹灯全集",鬼吹灯全集
+https://www.huya.com/29768105
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="身世神秘的范闲书写人生传奇",身世神秘的范闲书写人生传奇
+https://www.huya.com/11352960
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="干掉元首，吓尿德军《无耻混蛋》",干掉元首，吓尿德军《无耻混蛋》
+https://www.huya.com/bdcmovie
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="经典陪你看~",经典陪你看~
+https://www.huya.com/138531
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="斗破苍穹",斗破苍穹
+https://www.huya.com/29678742
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="李元芳：卑职的武器是挂",李元芳：卑职的武器是挂
+https://www.huya.com/19067943
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="铁齿铜牙",铁齿铜牙
+https://www.huya.com/25132963
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="潘粤明【鬼吹灯】全集！",潘粤明【鬼吹灯】全集！
+https://www.huya.com/29852720
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="乡村爱情",乡村爱情
+https://www.huya.com/29835225
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="龙men·你猜猜车里是什么？",龙men·你猜猜车里是什么？
+https://www.huya.com/11352874
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="电影--搞笑、经典、谍战电影放映",电影--搞笑、经典、谍战电影放映
+https://www.huya.com/29731435
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="许三多军营成长史",许三多军营成长史
+https://www.huya.com/11342430
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="纪晓岚~",纪晓岚~
+https://www.huya.com/29588938
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="【纪晓岚】和珅样样精通",【纪晓岚】和珅样样精通
+https://www.huya.com/29528547
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="连城诀3：师兄三人各怀鬼胎，连城剑谱不翼而飞，终于撕破脸皮",连城诀3：师兄三人各怀鬼胎，连城剑谱不翼而飞，终于撕破脸皮
+https://www.huya.com/21674665
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="洪金宝·童年回忆杀",洪金宝·童年回忆杀
+https://www.huya.com/11279251
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="秦始皇吃花椒摸电门，赢麻了",秦始皇吃花椒摸电门，赢麻了
+https://www.huya.com/21059634
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="荒天帝石昊来也",荒天帝石昊来也
+https://www.huya.com/11336579
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="蜡笔小新",蜡笔小新
+https://www.huya.com/29451869
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="成龙经典武打动作片",成龙经典武打动作片
+https://www.huya.com/11342386
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="赵本山大叔电视剧 --雀刀门",赵本山大叔电视剧 --雀刀门
+https://www.huya.com/29805872
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="三十年河东，三十年河西，莫欺少年穷",三十年河东，三十年河西，莫欺少年穷
+https://www.huya.com/29957485
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="奉佛爷之命，守护古潼京",奉佛爷之命，守护古潼京
+https://www.huya.com/26355786
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="盛世大唐，共破奇案……",盛世大唐，共破奇案……
+https://www.huya.com/26355763
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="蜡笔小西",蜡笔小西
+https://www.huya.com/137834
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="密战",密战
+https://www.huya.com/23059234
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="费电主播！",费电主播！
+https://www.huya.com/20674803
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="【邻li一家亲】满院白眼狼",【邻li一家亲】满院白眼狼
+https://www.huya.com/11342426
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="经典xiaopin、搞笑电影！",经典xiaopin、搞笑电影！
+https://www.huya.com/29820210
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="武侠经典~无法超越",武侠经典~无法超越
+https://www.huya.com/26298751
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="毛骗还是雅贼",毛骗还是雅贼
+https://www.huya.com/26355791
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="画质修复三国曹操",画质修复三国曹操
+https://www.huya.com/30045454
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="海绵宝宝宝的直播间",海绵宝宝宝的直播间
+https://www.huya.com/11352919
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="武侠江湖梁山好汉",武侠江湖梁山好汉
+https://www.huya.com/wang1314
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="童年经典·无知少年欢乐多",童年经典·无知少年欢乐多
+https://www.huya.com/11352970
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="搞笑的一家人",搞笑的一家人
+https://www.huya.com/11342402
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="康熙·民间私访",康熙·民间私访
+https://www.huya.com/11342418
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="三十年河东 三十年河西#斗破苍穹年番",三十年河东 三十年河西#斗破苍穹年番
+https://www.huya.com/24055996
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="雪豹坚强岁月 新雪豹！",雪豹坚强岁月 新雪豹！
+https://www.huya.com/29580970
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="集梦ZKL 新主播",集梦ZKL 新主播
+https://www.huya.com/25666575
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="夏雪夏雨夏冰雹",夏雪夏雨夏冰雹
+https://www.huya.com/11352872
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="星空影视-精彩剧集直播",星空影视-精彩剧集直播
+https://www.huya.com/memorytv
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="李连杰系列 武打高产王",李连杰系列 武打高产王
+https://www.huya.com/11342390
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="天不生我李淳罡，剑道万古如长夜",天不生我李淳罡，剑道万古如长夜
+https://www.huya.com/11336592
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="法海你不懂爱",法海你不懂爱
+https://www.huya.com/26355768
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="看鬼片咯",看鬼片咯
+https://www.huya.com/631395
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="相识、相知、相爱、相守的父母爱情",相识、相知、相爱、相守的父母爱情
+https://www.huya.com/11602071
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="【王晶】港风导演代表",【王晶】港风导演代表
+https://www.huya.com/11602058
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="我叫王大锤，我是……",我叫王大锤，我是……
+https://www.huya.com/26355850
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="百万饭局 纪晓岚 和珅",百万饭局 纪晓岚 和珅
+https://www.huya.com/25701671
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="杨戬你不懂爱",杨戬你不懂爱
+https://www.huya.com/21059557
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="《龙珠超》进阶超神之境自在极意49",《龙珠超》进阶超神之境自在极意49
+https://www.huya.com/10279885
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="韦小宝继续耍宝",韦小宝继续耍宝
+https://www.huya.com/26355806
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="大秦，终章！",大秦，终章！
+https://www.huya.com/11352881
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="【老登中登小登请进】没事做进来摸会儿鱼",【老登中登小登请进】没事做进来摸会儿鱼
+https://www.huya.com/29742446
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="武林 同福客栈24小时",武林 同福客栈24小时
+https://www.huya.com/10980725
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="新水hu·在下正是西公子！",新水hu·在下正是西公子！
+https://www.huya.com/11342384
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="雀刀门 最好看的东北喜剧",雀刀门 最好看的东北喜剧
+https://www.huya.com/11352963
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="成龍历险记·社会我阿福乌鸦坐飞机",成龍历险记·社会我阿福乌鸦坐飞机
+https://www.huya.com/11352946
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="摸金校尉造访龙岭！",摸金校尉造访龙岭！
+https://www.huya.com/29465863
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="经典港剧笑嘻嘻",经典港剧笑嘻嘻
+https://www.huya.com/11352965
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="老农民 冯远征陈宝国老戏骨无敌演技",老农民 冯远征陈宝国老戏骨无敌演技
+https://www.huya.com/29580971
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="武林之同福客栈动画版",武林之同福客栈动画版
+https://www.huya.com/25749066
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="赤子李卫，不学有术",赤子李卫，不学有术
+https://www.huya.com/26355788
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="你怎么看待六子哥",你怎么看待六子哥
+https://www.huya.com/11602086
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="上仙白子画",上仙白子画
+https://www.huya.com/26355839
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="速看科幻电影《新哥斯拉》",速看科幻电影《新哥斯拉》
+https://www.huya.com/kh1905
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="【缅怀最经典张飞】桃园结义三兄弟",【缅怀最经典张飞】桃园结义三兄弟
+https://www.huya.com/11602081
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="流浪地球-第三交通委提醒您",流浪地球-第三交通委提醒您
+https://www.huya.com/880261
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="悸动的直播间",悸动的直播间
+https://www.huya.com/28272846
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="你挑着担，我牵着你",你挑着担，我牵着你
+https://www.huya.com/26355861
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="在哪儿跌倒的还得在哪儿爬起来",在哪儿跌倒的还得在哪儿爬起来
+https://www.huya.com/11602088
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="最经典的袁湘琴，甜妹林依晨",最经典的袁湘琴，甜妹林依晨
+https://www.huya.com/26355771
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="胡八一胖子沙漠古城找鬼洞",胡八一胖子沙漠古城找鬼洞
+https://www.huya.com/11352871
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="乌龙院师徒，开闹！",乌龙院师徒，开闹！
+https://www.huya.com/26355767
+#EXTINF:-1 group-title="虎牙" playtype="webview" tvg-name="742-746",742-746
+https://www.huya.com/16913382
 #EXTINF:-1 group-title="中广" tvg-logo="https://epg.112114.xyz/logo/首华语经典.png" tvg-name="500首华语经典",500首华语经典
 http://ls.qingting.fm/live/3412131.m3u8?bitrate=64
 #EXTINF:-1 group-title="中广" tvg-logo="https://epg.112114.xyz/logo/CRI环球资讯广播FM90.5.png" tvg-name="CRI 环球资讯广播 FM90.5",CRI 环球资讯广播 FM90.5
@@ -491,6 +766,268 @@ https://m.douyu.com/9601429
 https://m.douyu.com/7422897
 #EXTINF:-1 group-title="斗鱼" playtype="webview"  tvg-name="【老王】经典电影看不停",斗鱼
 https://m.douyu.com/9687733
+#EXTINF:-1 group-title="延边" playtype="webview" tvg-name="汉语综合频道",汉语综合频道
+https://www.yb983.com/ybtv2/index.html
+#EXTINF:-1 group-title="延边" playtype="webview" tvg-name="朝鲜语综合频道",朝鲜语综合频道
+https://www.yb983.com/ybtv1/index.html
+#EXTINF:-1 group-title="延边" playtype="webview" tvg-name="延边卫视",延边卫视
+https://www.yb983.com/cys/index.html
+#EXTINF:-1 group-title="延边" playtype="webview" tvg-name="新闻综合广播",新闻综合广播
+https://www.yb983.com/fm983/index.html
+#EXTINF:-1 group-title="延边" playtype="webview" tvg-name="AM1053",AM1053
+https://www.yb983.com/am1053/index.html
+#EXTINF:-1 group-title="延边" playtype="webview" tvg-name="旅游广播",旅游广播
+https://www.yb983.com/fm1046/index.html
+#EXTINF:-1 group-title="延边" playtype="webview" tvg-name="交通文艺广播",交通文艺广播
+https://www.yb983.com/fm1059/index.html
+#EXTINF:-1 group-title="延边" playtype="webview" tvg-name="조선어",조선어
+http://www.iybtv.com/
+#EXTINF:-1 group-title="黑龙江" playtype="webview" tvg-name="文体频道",文体频道
+https://www.hljtv.com/live/folder423/
+#EXTINF:-1 group-title="黑龙江" playtype="webview" tvg-name="影视频道",影视频道
+https://www.hljtv.com/live/folder425/
+#EXTINF:-1 group-title="黑龙江" playtype="webview" tvg-name="新闻法治频道",新闻法治频道
+https://www.hljtv.com/live/folder424/
+#EXTINF:-1 group-title="黑龙江" playtype="webview" tvg-name="都市频道",都市频道
+https://www.hljtv.com/live/folder419/
+#EXTINF:-1 group-title="黑龙江" playtype="webview" tvg-name="农业·科教频道",农业·科教频道
+https://www.hljtv.com/live/folder420/
+#EXTINF:-1 group-title="黑龙江" playtype="webview" tvg-name="少儿频道",少儿频道
+https://www.hljtv.com/live/folder422/
+#EXTINF:-1 group-title="哈尔滨" playtype="webview" tvg-name="新闻综合频道",新闻综合频道
+https://www.hrbtv.net/folder79/folder81/
+#EXTINF:-1 group-title="哈尔滨" playtype="webview" tvg-name="生活频道",生活频道
+https://www.hrbtv.net/folder79/folder85/
+#EXTINF:-1 group-title="哈尔滨" playtype="webview" tvg-name="影视频道",影视频道
+https://www.hrbtv.net/folder79/folder87/
+#EXTINF:-1 group-title="贵州" playtype="webview" tvg-name="贵州公共频道",贵州公共频道
+https://www.gzstv.com/tv/ch02
+#EXTINF:-1 group-title="贵州" playtype="webview" tvg-name="影视文艺频道",影视文艺频道
+https://www.gzstv.com/tv/ch03
+#EXTINF:-1 group-title="贵州" playtype="webview" tvg-name="大众生活频道",大众生活频道
+https://www.gzstv.com/tv/ch04
+#EXTINF:-1 group-title="贵州" playtype="webview" tvg-name="生态·乡村频道",生态·乡村频道
+https://www.gzstv.com/tv/ch05
+#EXTINF:-1 group-title="贵州" playtype="webview" tvg-name="科教健康频道",科教健康频道
+https://www.gzstv.com/tv/ch06
+#EXTINF:-1 group-title="贵州" playtype="webview" tvg-name="贵州移动电视频道",贵州移动电视频道
+https://www.gzstv.com/tv/ch13
+#EXTINF:-1 group-title="河北" playtype="webview" tvg-name="经济生活",经济生活
+https://web.cmc.hebtv.com/cms/rmt0336_html/19/19js/st/xdszb/10516507.shtml
+#EXTINF:-1 group-title="河北" playtype="webview" tvg-name="农民频道",农民频道
+https://web.cmc.hebtv.com/cms/rmt0336_html/19/19js/st/xdszb/10516508.shtml
+#EXTINF:-1 group-title="河北" playtype="webview" tvg-name="河北都市",河北都市
+https://web.cmc.hebtv.com/cms/rmt0336_html/19/19js/st/xdszb/10516509.shtml
+#EXTINF:-1 group-title="河北" playtype="webview" tvg-name="河北影视剧",河北影视剧
+https://web.cmc.hebtv.com/cms/rmt0336_html/19/19js/st/xdszb/10516510.shtml
+#EXTINF:-1 group-title="河北" playtype="webview" tvg-name="少儿科教",少儿科教
+https://web.cmc.hebtv.com/cms/rmt0336_html/19/19js/st/xdszb/10516511.shtml
+#EXTINF:-1 group-title="河北" playtype="webview" tvg-name="河北公共",河北公共
+https://web.cmc.hebtv.com/cms/rmt0336_html/19/19js/st/xdszb/10516512.shtml
+#EXTINF:-1 group-title="河北" playtype="webview" tvg-name="三佳购物",三佳购物
+https://web.cmc.hebtv.com/cms/rmt0336_html/19/19js/st/xdszb/10516513.shtml
+#EXTINF:-1 group-title="山东" playtype="webview" tvg-name="新闻频道",新闻频道
+http://v.iqilu.com/live/ggpd/
+#EXTINF:-1 group-title="山东" playtype="webview" tvg-name="齐鲁频道",齐鲁频道
+http://v.iqilu.com/live/qlpd/
+#EXTINF:-1 group-title="山东" playtype="webview" tvg-name="体育频道",体育频道
+http://v.iqilu.com/live/typd/
+#EXTINF:-1 group-title="山东" playtype="webview" tvg-name="文旅频道",文旅频道
+http://v.iqilu.com/live/yspd/
+#EXTINF:-1 group-title="山东" playtype="webview" tvg-name="综艺频道",综艺频道
+http://v.iqilu.com/live/zypd/
+#EXTINF:-1 group-title="山东" playtype="webview" tvg-name="生活频道",生活频道
+http://v.iqilu.com/live/shpd/
+#EXTINF:-1 group-title="山东" playtype="webview" tvg-name="农科频道",农科频道
+http://v.iqilu.com/live/nkpd/
+#EXTINF:-1 group-title="山东" playtype="webview" tvg-name="少儿频道",少儿频道
+http://v.iqilu.com/live/sepd/
+#EXTINF:-1 group-title="山东" playtype="webview" tvg-name="日照新闻综合",日照新闻综合
+https://www.rzw.com.cn/folder247/folder2217
+#EXTINF:-1 group-title="山东" playtype="webview" tvg-name="QTV-1",QTV-1
+http://www.qtv.com.cn/live/tv/index.shtml
+#EXTINF:-1 group-title="山东" playtype="webview" tvg-name="QTV-2",QTV-2
+http://www.qtv.com.cn/live/tv/tv_qtv2.shtml
+#EXTINF:-1 group-title="山东" playtype="webview" tvg-name="QTV-3",QTV-3
+http://www.qtv.com.cn/live/tv/tv_qtv3.shtml
+#EXTINF:-1 group-title="山东" playtype="webview" tvg-name="QTV-4",QTV-4
+http://www.qtv.com.cn/live/tv/tv_qtv4.shtml
+#EXTINF:-1 group-title="山东" playtype="webview" tvg-name="QTV-5",QTV-5
+http://www.qtv.com.cn/live/tv/tv_qtv5.shtml
+#EXTINF:-1 group-title="山东" playtype="webview" tvg-name="QTV-6",QTV-6
+http://www.qtv.com.cn/live/tv/tv_qtv6.shtml
+#EXTINF:-1 group-title="山东" playtype="webview" tvg-name="济南新闻频道",济南新闻频道
+https://ijntv.cn/live/
+#EXTINF:-1 group-title="甘肃" tvg-name="经济频道",经济频道
+https://hls.gstv.com.cn/49048r/10iv1j.m3u8
+#EXTINF:-1 group-title="甘肃" tvg-name="文化影视",文化影视
+https://hls.gstv.com.cn/49048r/w1l6d5.m3u8
+#EXTINF:-1 group-title="甘肃" tvg-name="公共应急",公共应急
+https://hls.gstv.com.cn/49048r/3t5xyc.m3u8
+#EXTINF:-1 group-title="甘肃" tvg-name="少儿频道",少儿频道
+https://hls.gstv.com.cn/49048r/922k96.m3u8
+#EXTINF:-1 group-title="甘肃" tvg-name="都市频道",都市频道
+https://hls.gstv.com.cn/49048r/l54391.m3u8
+#EXTINF:-1 group-title="甘肃" tvg-name="移动电视",移动电视
+https://hls.gstv.com.cn/94ycke/v9qci2.m3u8
+#EXTINF:-1 group-title="西安" playtype="webview" tvg-name="新闻综合",新闻综合
+https://v.xiancity.cn/folder8/folder39/folder29/
+#EXTINF:-1 group-title="西安" playtype="webview" tvg-name="都市频道",都市频道
+https://v.xiancity.cn/folder8/folder39/folder30/
+#EXTINF:-1 group-title="西安" playtype="webview" tvg-name="商务资讯",商务资讯
+https://v.xiancity.cn/folder8/folder39/folder31/
+#EXTINF:-1 group-title="西安" playtype="webview" tvg-name="戏剧影视频道",戏剧影视频道
+https://v.xiancity.cn/folder8/folder39/folder32/
+#EXTINF:-1 group-title="西安" playtype="webview" tvg-name="丝路频道",丝路频道
+https://v.xiancity.cn/folder8/folder39/folder33/
+#EXTINF:-1 group-title="南京" tvg-name="新闻综合",新闻综合
+http://live.nbs.cn/channels/njtv/xwzh/nbs06.m3u8
+#EXTINF:-1 group-title="南京" tvg-name="教科频道",教科频道
+http://live.nbs.cn/channels/njtv/jkpd/nbs06.m3u8
+#EXTINF:-1 group-title="南京" tvg-name="生活频道",生活频道
+http://live.nbs.cn/channels/njtv/shpd/nbs06.m3u8
+#EXTINF:-1 group-title="南京" tvg-name="娱乐频道",娱乐频道
+http://live.nbs.cn/channels/njtv/ylpd/500k.m3u8
+#EXTINF:-1 group-title="南京" tvg-name="十八频道",十八频道
+http://live.nbs.cn/channels/njtv/sbpd/500k.m3u8
+#EXTINF:-1 group-title="南京" tvg-name="少儿频道",少儿频道
+http://live.nbs.cn/channels/njtv/sepd/nbs23.m3u8
+#EXTINF:-1 group-title="南京" tvg-name="信息频道",信息频道
+http://live.nbs.cn/channels/njtv/xxpd/500k.m3u8
+#EXTINF:-1 group-title="南昌" playtype="webview" tvg-name="新闻综合",新闻综合
+https://www.nctv.net.cn/live?channel=1
+#EXTINF:-1 group-title="南昌" playtype="webview" tvg-name="都市",都市
+https://www.nctv.net.cn/live?channel=2
+#EXTINF:-1 group-title="南昌" playtype="webview" tvg-name="资讯频道",资讯频道
+https://www.nctv.net.cn/live?channel=3
+#EXTINF:-1 group-title="成都" playtype="webview" tvg-name="CDTV-1 新闻综合频道",CDTV-1 新闻综合频道
+https://www.cditv.cn/show/4845-563.html
+#EXTINF:-1 group-title="成都" playtype="webview" tvg-name="CDTV-2 经济资讯频道",CDTV-2 经济资讯频道
+https://www.cditv.cn/show/4845-562.html
+#EXTINF:-1 group-title="成都" playtype="webview" tvg-name="CDTV-3 都市生活频道",CDTV-3 都市生活频道
+https://www.cditv.cn/show/4845-561.html
+#EXTINF:-1 group-title="成都" playtype="webview" tvg-name="CDTV-4 影视文艺频道",CDTV-4 影视文艺频道
+https://www.cditv.cn/show/4845-560.html
+#EXTINF:-1 group-title="成都" playtype="webview" tvg-name="CDTV-5 公共频道",CDTV-5 公共频道
+https://www.cditv.cn/show/4845-559.html
+#EXTINF:-1 group-title="成都" playtype="webview" tvg-name="CDTV-6 少儿频道",CDTV-6 少儿频道
+https://www.cditv.cn/show/4845-558.html
+#EXTINF:-1 group-title="成都" playtype="webview" tvg-name="蓉城先锋",蓉城先锋
+https://www.cditv.cn/show/4845-592.html
+#EXTINF:-1 group-title="成都" playtype="webview" tvg-name="每日购物",每日购物
+https://www.cditv.cn/show/4845-595.html
+#EXTINF:-1 group-title="福建" playtype="webview" tvg-name="综合频道",综合频道
+https://live.fjtv.net/zhpd/
+#EXTINF:-1 group-title="福建" playtype="webview" tvg-name="公共频道",公共频道
+https://live.fjtv.net/ggpd/
+#EXTINF:-1 group-title="福建" playtype="webview" tvg-name="新闻频道",新闻频道
+https://live.fjtv.net/xwpd/
+#EXTINF:-1 group-title="福建" playtype="webview" tvg-name="电视剧频道",电视剧频道
+https://live.fjtv.net/dsjpd/
+#EXTINF:-1 group-title="福建" playtype="webview" tvg-name="旅游频道",旅游频道
+https://live.fjtv.net/dspd/
+#EXTINF:-1 group-title="福建" playtype="webview" tvg-name="经视频道",经视频道
+https://live.fjtv.net/jspd/
+#EXTINF:-1 group-title="福建" playtype="webview" tvg-name="文体频道",文体频道
+https://live.fjtv.net/typd/
+#EXTINF:-1 group-title="福建" playtype="webview" tvg-name="少儿频道",少儿频道
+https://live.fjtv.net/sepd/
+#EXTINF:-1 group-title="福建" playtype="webview" tvg-name="海峡卫视",海峡卫视
+https://live.fjtv.net/hxtv/
+#EXTINF:-1 group-title="安徽" playtype="webview" tvg-name="经济生活",经济生活
+https://www.ahtv.cn/folder9000/folder20193?channelIndex=1
+#EXTINF:-1 group-title="安徽" playtype="webview" tvg-name="综艺体育",综艺体育
+https://www.ahtv.cn/folder9000/folder20193?channelIndex=2
+#EXTINF:-1 group-title="安徽" playtype="webview" tvg-name="影视频道",影视频道
+https://www.ahtv.cn/folder9000/folder20193?channelIndex=3
+#EXTINF:-1 group-title="安徽" playtype="webview" tvg-name="安徽公共",安徽公共
+https://www.ahtv.cn/folder9000/folder20193?channelIndex=4
+#EXTINF:-1 group-title="安徽" playtype="webview" tvg-name="农业·科教",农业·科教
+https://www.ahtv.cn/folder9000/folder20193?channelIndex=5
+#EXTINF:-1 group-title="安徽" playtype="webview" tvg-name="安徽国际",安徽国际
+https://www.ahtv.cn/folder9000/folder20193?channelIndex=6
+#EXTINF:-1 group-title="安徽" playtype="webview" tvg-name="移动电视",移动电视
+https://www.ahtv.cn/folder9000/folder20193?channelIndex=7
+#EXTINF:-1 group-title="地方" playtype="webview" tvg-name="东莞新闻综合频道",东莞新闻综合频道
+https://dgrtv.sun0769.com/index.php/online2/4
+#EXTINF:-1 group-title="地方" playtype="webview" tvg-name="东莞生活资讯频道",东莞生活资讯频道
+https://dgrtv.sun0769.com/index.php/online2/5
+#EXTINF:-1 group-title="广西" playtype="webview" tvg-name="综艺旅游频道",综艺旅游频道
+https://tv.gxtv.cn/channel/channelivePlay_f3335975f9fe11e88bcfe41f13b60c62.html
+#EXTINF:-1 group-title="广西" playtype="webview" tvg-name="都市频道",都市频道
+https://tv.gxtv.cn/channel/channelivePlay_fdbaf085f9fe11e88bcfe41f13b60c62.html
+#EXTINF:-1 group-title="广西" playtype="webview" tvg-name="影视频道",影视频道
+https://tv.gxtv.cn/channel/channelivePlay_5e923d82058e11e9ba67e41f13b60c62.html
+#EXTINF:-1 group-title="广西" playtype="webview" tvg-name="新闻频道",新闻频道
+https://tv.gxtv.cn/channel/channelivePlay_9dfd8600075811e9ba67e41f13b60c62.html
+#EXTINF:-1 group-title="广西" playtype="webview" tvg-name="国际频道",国际频道
+https://tv.gxtv.cn/channel/channelivePlay_bfa17b64157f11e999f0e41f13b60c62.html
+#EXTINF:-1 group-title="广西" playtype="webview" tvg-name="乐思购频道",乐思购频道
+https://tv.gxtv.cn/channel/channelivePlay_ed58bc4a207811e999f0e41f13b60c62.html
+#EXTINF:-1 group-title="广西" playtype="webview" tvg-name="移动数字电视频道",移动数字电视频道
+https://tv.gxtv.cn/channel/channelivePlay_78dbfd44e6b74ab687204d2d8113cbf5.html
+#EXTINF:-1 group-title="广西" playtype="webview" tvg-name="中国教育电视台CETV-1频道",中国教育电视台CETV-1频道
+https://tv.gxtv.cn/channel/channelivePlay_ffa6b6e1b32b4a16a73eb3ef66f8bfc7.html
+#EXTINF:-1 group-title="广西" playtype="webview" tvg-name="中国教育电视台CETV-2频道",中国教育电视台CETV-2频道
+https://tv.gxtv.cn/channel/channelivePlay_80d0ffb42c114eaf9663708629ff0a3e.html
+#EXTINF:-1 group-title="广西" playtype="webview" tvg-name="中国教育电视台CETV-4频道",中国教育电视台CETV-4频道
+https://tv.gxtv.cn/channel/channelivePlay_67eace939278435bb4bca90800fb4225.html
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="广东卫视",广东卫视
+https://www.gdtv.cn/tvChannelDetail/43
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="广东珠江",广东珠江
+https://www.gdtv.cn/tvChannelDetail/44
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="广东新闻",广东新闻
+https://www.gdtv.cn/tvChannelDetail/45
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="广东民生",广东民生
+https://www.gdtv.cn/tvChannelDetail/48
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="广东体育",广东体育
+https://www.gdtv.cn/tvChannelDetail/47
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="大湾区卫视",大湾区卫视
+https://www.gdtv.cn/tvChannelDetail/51
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="大湾区卫视（海外版）",大湾区卫视（海外版）
+https://www.gdtv.cn/tvChannelDetail/46
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="经济科教",经济科教
+https://www.gdtv.cn/tvChannelDetail/49
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="广东影视",广东影视
+https://www.gdtv.cn/tvChannelDetail/53
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="4K超高清",4K超高清
+https://www.gdtv.cn/tvChannelDetail/16
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="广东少儿",广东少儿
+https://www.gdtv.cn/tvChannelDetail/54
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="嘉佳卡通",嘉佳卡通
+https://www.gdtv.cn/tvChannelDetail/66
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="南方购物",南方购物
+https://www.gdtv.cn/tvChannelDetail/42
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="岭南戏曲",岭南戏曲
+https://www.gdtv.cn/tvChannelDetail/15
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="现代教育",现代教育
+https://www.gdtv.cn/tvChannelDetail/13
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="广东移动",广东移动
+https://www.gdtv.cn/tvChannelDetail/74
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="荔枝台",荔枝台
+https://www.gdtv.cn/tvChannelDetail/100
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="纪录片",纪录片
+https://www.gdtv.cn/tvChannelDetail/94
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="GRTN健康频道",GRTN健康频道
+https://www.gdtv.cn/tvChannelDetail/99
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="GRTN文化频道",GRTN文化频道
+https://www.gdtv.cn/tvChannelDetail/75
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="GRTN生活频道",GRTN生活频道
+https://www.gdtv.cn/tvChannelDetail/102
+#EXTINF:-1 group-title="广东" playtype="webview" tvg-name="GRTN教育频道",GRTN教育频道
+https://www.gdtv.cn/tvChannelDetail/104
+#EXTINF:-1 group-title="海南" playtype="webview" tvg-name="三沙卫视",三沙卫视
+https://www.hnntv.cn/live.html?playType=livePlay&channelId=5&referPage=home
+#EXTINF:-1 group-title="海南" playtype="webview" tvg-name="海南自贸",海南自贸
+https://www.hnntv.cn/live.html?playType=livePlay&channelId=1&referPage=home
+#EXTINF:-1 group-title="海南" playtype="webview" tvg-name="海南新闻",海南新闻
+https://www.hnntv.cn/live.html?playType=livePlay&channelId=3&referPage=home
+#EXTINF:-1 group-title="海南" playtype="webview" tvg-name="海南文旅",海南文旅
+https://www.hnntv.cn/live.html?playType=livePlay&channelId=6&referPage=home
+#EXTINF:-1 group-title="海南" playtype="webview" tvg-name="海南公共",海南公共
+https://www.hnntv.cn/live.html?playType=livePlay&channelId=4&referPage=home
+#EXTINF:-1 group-title="海南" playtype="webview" tvg-name="海南少儿",海南少儿
+https://www.hnntv.cn/live.html?playType=livePlay&channelId=7&referPage=home
 #EXTINF:-1 group-title="音乐" tvg-logo="https://epg.112114.xyz/logo/宁波音乐广播.png" tvg-name="宁波音乐广播",宁波音乐广播
 http://ihzlh.linker.cc/ihzlh/zjnb_ts02_986.m3u8
 #EXTINF:-1 group-title="音乐" tvg-logo="https://epg.112114.xyz/logo/宁波动感FM.2.png" tvg-name="宁波动感105 FM105.2",宁波动感105 FM105.2
