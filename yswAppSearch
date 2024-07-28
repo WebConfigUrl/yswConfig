@@ -28,7 +28,7 @@
       "RegVideoCountry": null
     },{
       "SiteName": "豆瓣Vip",
-      "SiteSearchUrl": "http://122.114.170.114:9696/search/{search}",
+      "SiteSearchUrl": "http://101.43.89.20:9696/search/{search}",
       "SiteEncoding": "utf-8",
       "SearchType": "get",
 	  "Remark":"",
