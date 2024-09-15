@@ -210,7 +210,34 @@
 
 			]
 
-		},
+		},{
+      "SiteName": "电视剧合集",
+      "SiteSearchUrl": "",
+      "SiteEncoding": "utf-8",
+	  "ChannelShowType": "titlenomore",
+      "SearchType": "get",
+      "UrlParams": "",
+      "HeadParams": null,
+      "IsEnabled": 1,
+	  "ShowNum":50,
+      "PlayType":"video",
+      "RegContent": "(?<=<ul id=\"searchUl\">)[\\s|\\S]*?(?=</ul>)",
+      "RegListNotInclude":"",
+      "RegSplit": "</li>",
+      "IsIncludeHtml": 0,
+      "RegUrlInclude": "(?<=href=\")[\\s|\\S]*?(?=\")",
+      "RegUrlNotInclude": "",
+      "RegImgUrl": "(?<=src=\")[\\s|\\S]*?(?=\")",
+      "RegVideoTitle": "(?<=<p class=\"name\">)[\\s|\\S]*?(?=</p>)",
+      "RegVideoTitle2": "",
+      "RegVideoActor": "",
+      "RegVideoInfo": "",
+      "RegVideoScore": "(?<=<span>)[\\s|\\S]*?(?=</span>)",
+      "RegVideoYear": null,
+      "RegVideoCountry": null,
+	  "SubAppSearchInfo":"国产精品电视剧,http://101.43.89.20:9696/zt/GuoChanJingPinDianShiJuJiHe_|_搞笑电视剧,http://101.43.89.20:9696/zt/GaoXiaoDianShiJuJiHe"
+    } ,
+		
 		{
 			"SiteName": "综艺  豆瓣",
 			"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%BB%BC%E8%89%BA&page_limit=50",
@@ -311,32 +338,6 @@
       "RegVideoYear": null,
       "RegVideoCountry": null,
 	  "SubAppSearchInfo":"2023年95届,http://101.43.89.20:9696/zt/2023Nian_|_2022年94届,http://101.43.89.20:9696/zt/2022Nian_|_2021年93届,http://101.43.89.20:9696/zt/2021Nian_|_2020年92届,http://101.43.89.20:9696/zt/2020Nian_|_2019年91届,http://101.43.89.20:9696/zt/2019Nian_|_2018年90届,http://101.43.89.20:9696/zt/2018Nian_|_2017年89届,http://101.43.89.20:9696/zt/2017Nian_|_2016年88届,http://101.43.89.20:9696/zt/2016Nian_|_2015年87届,http://101.43.89.20:9696/zt/2015Nian_|_2014年86届,http://101.43.89.20:9696/zt/2014Nian_|_2013年85届,http://101.43.89.20:9696/zt/2013Nian_|_2012年84届,http://101.43.89.20:9696/zt/2012Nian_|_2011年83届,http://101.43.89.20:9696/zt/2011Nian_|_2010年82届,http://101.43.89.20:9696/zt/2010Nian_|_2009年81届,http://101.43.89.20:9696/zt/2009Nian_|_2008年80届,http://101.43.89.20:9696/zt/2008Nian_|_2007年79届,http://101.43.89.20:9696/zt/2007Nian_|_2006年78届,http://101.43.89.20:9696/zt/2006Nian_|_2005年77届,http://101.43.89.20:9696/zt/2005Nian_|_2004年76届,http://101.43.89.20:9696/zt/2004Nian_|_2003年75届,http://101.43.89.20:9696/zt/2003Nian_|_2002年74届,http://101.43.89.20:9696/zt/2002Nian_|_2001年73届,http://101.43.89.20:9696/zt/2001Nian_|_2000年72届,http://101.43.89.20:9696/zt/2000Nian_|_1999年71届,http://101.43.89.20:9696/zt/1999Nian_|_1998年70届,http://101.43.89.20:9696/zt/1998Nian_|_1997年69届,http://101.43.89.20:9696/zt/1997Nian_|_1996年68届,http://101.43.89.20:9696/zt/1996Nian_|_1995年67届,http://101.43.89.20:9696/zt/1995Nian_|_1994年66届,http://101.43.89.20:9696/zt/1994Nian_|_1993年65届,http://101.43.89.20:9696/zt/1993Nian_|_1992年64届,http://101.43.89.20:9696/zt/1992Nian_|_1991年63届,http://101.43.89.20:9696/zt/1991Nian_|_1990年62届,http://101.43.89.20:9696/zt/1990Nian_|_1989年61届,http://101.43.89.20:9696/zt/1989Nian_|_1988年60届,http://101.43.89.20:9696/zt/1988Nian"
-    } ,{
-      "SiteName": "电视剧合集",
-      "SiteSearchUrl": "",
-      "SiteEncoding": "utf-8",
-	  "ChannelShowType": "titlenomore",
-      "SearchType": "get",
-      "UrlParams": "",
-      "HeadParams": null,
-      "IsEnabled": 1,
-	  "ShowNum":50,
-      "PlayType":"video",
-      "RegContent": "(?<=<ul id=\"searchUl\">)[\\s|\\S]*?(?=</ul>)",
-      "RegListNotInclude":"",
-      "RegSplit": "</li>",
-      "IsIncludeHtml": 0,
-      "RegUrlInclude": "(?<=href=\")[\\s|\\S]*?(?=\")",
-      "RegUrlNotInclude": "",
-      "RegImgUrl": "(?<=src=\")[\\s|\\S]*?(?=\")",
-      "RegVideoTitle": "(?<=<p class=\"name\">)[\\s|\\S]*?(?=</p>)",
-      "RegVideoTitle2": "",
-      "RegVideoActor": "",
-      "RegVideoInfo": "",
-      "RegVideoScore": "(?<=<span>)[\\s|\\S]*?(?=</span>)",
-      "RegVideoYear": null,
-      "RegVideoCountry": null,
-	  "SubAppSearchInfo":"国产精品电视剧,http://101.43.89.20:9696/zt/GuoChanJingPinDianShiJuJiHe_|_搞笑电视剧,http://101.43.89.20:9696/zt/GaoXiaoDianShiJuJiHe"
     } 
       
 	]
