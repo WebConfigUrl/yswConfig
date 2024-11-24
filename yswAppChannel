@@ -53,6 +53,35 @@
 
 		},
 		{
+			"SiteName": "热门国漫  豆瓣",
+			"SiteSearchUrl": "https://movie.douban.com/j/new_search_subjects?sort=U&tags=%E5%8A%A8%E6%BC%AB&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86",
+			"SiteEncoding": "utf-8",
+			"SearchType": "get",
+			"UrlParams": "start={page-50}",
+			"HeadParams": null,
+			"IsEnabled": 1,
+			"PlayType": "video",
+			"RegContent": "(?<=\"subjects\")[\\s|\\S]*?(?=\\}\\]\\})",
+			"RegSplit": "\"is_new\"",
+			"IsIncludeHtml": 1,
+			"RegUrlInclude": "(?<=\"url\":\")[\\s|\\S]*?(?=\")",
+			"RegUrlNotInclude": "",
+			"RegImgUrl": "(?<=\"cover\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle": "(?<=\"title\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoTitle2": "(?<=\"episodes_info\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoActor": "",
+			"RegVideoInfo": "",
+			"RegVideoScore": "(?<=\"rate\":\")[\\s|\\S]*?(?=\")",
+			"RegVideoYear": null,
+			"RegVideoCountry": null,
+			"SubAppSearchInfo":"热门日漫,https://movie.douban.com/j/new_search_subjects?sort=U&tags=%E5%8A%A8%E6%BC%AB&countries=%E6%97%A5%E6%9C%AC",
+			"ListSearchInfos": [{
+					"SiteName": "热门日漫",
+					"SiteSearchUrl": "https://movie.douban.com/j/new_search_subjects?sort=U&tags=%E5%8A%A8%E6%BC%AB&countries=%E6%97%A5%E6%9C%AC"
+				}
+			]
+		},
+		{
 			"SiteName": "最新动漫  豆瓣",
 			"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?&tag=%E5%8A%A8%E6%BC%AB&page_limit=50&sort=time",
 			"SiteEncoding": "utf-8",
@@ -74,8 +103,14 @@
 			"RegVideoScore": "(?<=\"rate\":\")[\\s|\\S]*?(?=\")",
 			"RegVideoYear": null,
 			"RegVideoCountry": null,
-			"SubAppSearchInfo":"热门动漫,https://movie.douban.com/j/search_subjects?&tag=%E5%8A%A8%E6%BC%AB&page_limit=50&sort=recommend_|_热门日漫,https://movie.douban.com/j/search_subjects?type=tv&tag=%E6%97%A5%E6%9C%AC%E5%8A%A8%E7%94%BB&page_limit=50&page_start=0&sort=recommend_|_最新日漫,https://movie.douban.com/j/search_subjects?type=tv&tag=%E6%97%A5%E6%9C%AC%E5%8A%A8%E7%94%BB&page_limit=50&page_start=0&sort=time",
+			"SubAppSearchInfo":"动画电影,https://movie.douban.com/j/search_subjects?type=movie&tag=%E5%8A%A8%E7%94%BB&sort=recommend&page_limit=50_|_热门动漫,https://movie.douban.com/j/search_subjects?&tag=%E5%8A%A8%E6%BC%AB&page_limit=50&sort=recommend_|_高分动漫,https://movie.douban.com/j/search_subjects?&tag=%E5%8A%A8%E6%BC%AB&page_limit=50&sort=rank_|_热门日漫,https://movie.douban.com/j/search_subjects?type=tv&tag=%E6%97%A5%E6%9C%AC%E5%8A%A8%E7%94%BB&page_limit=50&sort=recommend_|_最新日漫,https://movie.douban.com/j/search_subjects?type=tv&tag=%E6%97%A5%E6%9C%AC%E5%8A%A8%E7%94%BB&page_limit=50&sort=time",
 			"ListSearchInfos": [{
+					"SiteName": "动画电影",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?type=movie&tag=%E5%8A%A8%E7%94%BB&sort=recommend&page_limit=50"
+				},{
+					"SiteName": "高分动漫",
+					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?&tag=%E5%8A%A8%E6%BC%AB&page_limit=50&sort=rank"
+				},{
 					"SiteName": "热门动漫",
 					"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?&tag=%E5%8A%A8%E6%BC%AB&page_limit=50&sort=recommend"
 				},
