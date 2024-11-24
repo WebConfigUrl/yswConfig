@@ -74,7 +74,7 @@
 			"RegVideoScore": "(?<=\"rate\":\")[\\s|\\S]*?(?=\")",
 			"RegVideoYear": null,
 			"RegVideoCountry": null,
-			"SubAppSearchInfo":"热门日漫,https://movie.douban.com/j/new_search_subjects?sort=U&tags=%E5%8A%A8%E6%BC%AB&countries=%E6%97%A5%E6%9C%AC_|搞笑动漫,https://movie.douban.com/j/new_search_subjects?sort=U&tags=%E5%8A%A8%E6%BC%AB&genres=%E5%96%9C%E5%89%A7_|悬疑动漫,https://movie.douban.com/j/new_search_subjects?sort=U&tags=%E5%8A%A8%E6%BC%AB&genres=%E6%82%AC%E7%96%91",
+			"SubAppSearchInfo":"热门日漫,https://movie.douban.com/j/new_search_subjects?sort=U&tags=%E5%8A%A8%E6%BC%AB&countries=%E6%97%A5%E6%9C%AC_|_搞笑动漫,https://movie.douban.com/j/new_search_subjects?sort=U&tags=%E5%8A%A8%E6%BC%AB&genres=%E5%96%9C%E5%89%A7_|_悬疑动漫,https://movie.douban.com/j/new_search_subjects?sort=U&tags=%E5%8A%A8%E6%BC%AB&genres=%E6%82%AC%E7%96%91",
 			"ListSearchInfos": [{
 					"SiteName": "热门日漫",
 					"SiteSearchUrl": "https://movie.douban.com/j/new_search_subjects?sort=U&tags=%E5%8A%A8%E6%BC%AB&countries=%E6%97%A5%E6%9C%AC"
