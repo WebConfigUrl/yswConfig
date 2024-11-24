@@ -54,7 +54,7 @@
 		},
 		{
 			"SiteName": "最新动漫  豆瓣",
-			"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?&tag=%E5%8A%A8%E6%BC%AB&page_limit=50&sort=recommend",
+			"SiteSearchUrl": "https://movie.douban.com/j/search_subjects?&tag=%E5%8A%A8%E6%BC%AB&page_limit=50&sort=time",
 			"SiteEncoding": "utf-8",
 			"SearchType": "get",
 			"UrlParams": "page_start={page-50}",
