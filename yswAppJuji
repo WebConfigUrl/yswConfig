@@ -1468,7 +1468,7 @@
 			"SiteUrl": "http://101.43.89.20:9696",
 			"MoreSiteUrls":"",
 			"SiteEncoding": "utf-8",
-			"IsEnabled": 1,
+			"IsEnabled": 3,
             "IsIndex":0,
 			"IsOnlyPart": 0,
 			"IsAlwaysLoadUrl": 0,
