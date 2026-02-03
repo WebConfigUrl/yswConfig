@@ -1465,7 +1465,7 @@
 		},
 		{
 			"SiteName": "豆瓣VIP",
-			"SiteUrl": "http://101.43.89.20:9696",
+			"SiteUrl": "http://123.207.184.17:9696",
 			"MoreSiteUrls":"",
 			"SiteEncoding": "utf-8",
 			"IsEnabled": 3,
@@ -1486,7 +1486,7 @@
 			"RegVideoId": "(?<=[a-z|A-Z]{2}/)[0-9]{1,20}",
 			"RegVideoImgUrl": "(?<=data-original=\")[\\s|\\S]*?(?=\")",
             "RegJumpUrl":  "(?<=[a-z|A-Z]{2}/)[0-9]{1,20}",
-			"JumpUrlFormat": "http://101.43.89.20:9696/dianying/{0}",
+			"JumpUrlFormat": "http://123.207.184.17:9696/dianying/{0}",
 			
 			"PlayType": "video",
 			"RegTitle": "(?<=<dt class=\"name\">)[\\s|\\S]*?(?=</dt>)",
@@ -1513,7 +1513,7 @@
 					"RegVideoNumRemove": "第_|_集",
 					"ContentEncoded": "urlencoder",
 					"JumpUrlFormat": "https://movie.douban.com/subject/{0}/",
-					"VideoSourceJumpUrlFormat": "http://101.43.89.20:9696/play.html?url={0}&11=1.html",
+					"VideoSourceJumpUrlFormat": "http://123.207.184.17:9696/play.html?url={0}&11=1.html",
 					"RegCollectContentList": "(?<=<ul class=\"bs\">)[\\s|\\S]*?(?=</ul>)",
 					"RegCollectContent": "(?<=data-cn=\")[\\s|\\S]*?(?=\")"
 				}
@@ -1542,7 +1542,7 @@
 			"RegVideoImgUrl": "(?<=itemprop=\"thumbnailUrl\" content=\")[\\s|\\S]*?(?=\")",
             "RegJumpUrl":  "",
 			"JumpUrlFormat": "{0}",
-			"VideoSourceJumpUrlFormat": "http://101.43.89.20:9696/play.html?url={0}",
+			"VideoSourceJumpUrlFormat": "http://123.207.184.17:9696/play.html?url={0}",
 			"PlayType": "webview",
 			"RegTitle": "(?<=property=\"og:title\" content=\")[\\s|\\S]*?(?=\")",
 			"RegScore": "(?<=<em class=\"emScore\">)[\\s|\\S]*?(?=</em>)",
@@ -1577,7 +1577,7 @@
 			"RegVideoImgUrl": "(?<=\"vod_pic\":\")[\\s|\\S]*?(?=\")",
 			"RegJumpUrl": "",
 			"JumpUrlFormat": "{0}",
-			"VideoSourceJumpUrlFormat": "http://101.43.89.20:9696/play.html?url={0}",
+			"VideoSourceJumpUrlFormat": "http://123.207.184.17:9696/play.html?url={0}",
 			"PlayType": "webview",
             "ContentEncoded": "unicode",
 			"RegTitle": "(?<=\"vod_name\":\")[\\s|\\S]*?(?=\")",
@@ -1613,7 +1613,7 @@
 			"RegVideoImgUrl": "(?<=<img src=\")[\\s|\\S]*?(?=\")",
             "RegJumpUrl":  "",
 			"JumpUrlFormat": "{0}",
-			"VideoSourceJumpUrlFormat": "http://101.43.89.20:9696/play.html?url={0}",
+			"VideoSourceJumpUrlFormat": "http://123.207.184.17:9696/play.html?url={0}",
 			"PlayType": "webview",
 			"RegTitle": "(?<=<h1>)[\\s|\\S]*?(?=</h1>)",
 			"RegScore": "(?<=<em style=\"color: red\">)[\\s|\\S]*?(?=分)",
